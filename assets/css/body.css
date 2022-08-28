@@ -1,0 +1,58 @@
+@import "variables.css";
+
+html {
+	font-family: "IBM Plex Sans", helvetica;
+	font-size: medium;
+}
+
+body {
+	margin: 0;
+	background-color: var(--background-second);
+	color: var(--font-first);
+}
+
+a {
+	color: var(--font-second);
+}
+
+a:hover {
+	color: var(--font-first);
+}
+
+li {
+	list-style-type: disc;
+}
+
+.main_content {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.content {
+	text-align: left;
+	width: 750px;
+	max-width: device-width;
+	margin: 15px;
+}
+
+.content p {
+	text-align: justify;
+}
+
+.content img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.list_item_link {
+	text-decoration: none;
+	color: var(--font-second);
+}
+
+.list_item_link:hover {
+	text-decoration: underline;
+	color: var(--font-first);
+}

@@ -1,0 +1,30 @@
+@import "variables.css";
+
+.top {
+	text-align: center;
+	overflow: hidden;
+	padding: 10px;
+	background-color: var(--background-first);
+	color: var(--font-first);
+	line-height: 200%;
+}
+
+.logo {
+	color: var(--font-first);
+	text-decoration: none;
+	font-size: xx-large;
+}
+
+.logo:hover {
+	color: var(--font-second);
+}
+
+.cv {
+	color: var(--font-first);
+	text-decoration: none;
+	font-size: larger;
+}
+
+.cv:hover {
+	color: var(--font-second);
+}

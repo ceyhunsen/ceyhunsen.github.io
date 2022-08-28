@@ -1,0 +1,13 @@
+@import "variables.css";
+
+footer {
+	border-top: 1px dotted var(--font-second);
+	text-align: center;
+	width: device-width;
+	line-height: 50%;
+	font-size: medium;
+}
+
+footer img {
+	max-height: var(--socials-size);
+}

@@ -1,0 +1,40 @@
+---
+layout: default
+title: Projects
+---
+
+<h1>Projects</h1>
+
+<h2>Embedded Projects</h2>
+
+<ul>
+	{% for project in site.projects %}
+		{% if project.category == "embedded" %}
+			<li>
+				<a href="{{ project.url }}" class="list_item_link">{{ project.title }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
+<h2>Web Projects</h2>
+
+<ul>
+	{% for project in site.projects %}
+		{% if project.category == "web" %}
+			<li>
+				<a href="{{ project.url }}" class="list_item_link">{{ project.title }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
+<h1>Competitions</h1>
+
+<ul>
+	{% for competition in site.competitions %}
+		<li>
+			<a href="{{ competition.url }}" class="list_item_link">{{ competition.title }}</a>
+		</li>
+	{% endfor %}
+</ul>

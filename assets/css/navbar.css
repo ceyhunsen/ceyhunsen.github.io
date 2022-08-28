@@ -1,0 +1,17 @@
+@import "variables.css";
+
+nav a {
+	font-size: medium;
+	width: fit-content;
+	word-spacing: 10px;
+	/* text-decoration: none; */
+}
+
+nav a:link,
+nav a:visited {
+	color: var(--font-first);
+}
+
+nav a:hover {
+	color: var(--font-second);
+}
