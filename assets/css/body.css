@@ -44,7 +44,7 @@ li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 75%;
+	max-width: 75%;
 }
 
 .list_item_link {
