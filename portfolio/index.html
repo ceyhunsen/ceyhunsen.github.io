@@ -3,6 +3,16 @@ layout: default
 title: Projects
 ---
 
+<h1>Experience</h1>
+
+<ul>
+	{% for experience in site.experience reversed %}
+		<li>
+			<a href="{{ experience.url }}" class="list_item_link">{{ experience.title }} | {{ experience.type }} {{ experience.position }} | {{ experience.start-date }} - {{ experience.end-date }}</a>
+		</li>
+	{% endfor %}
+</ul>
+
 <h1>Projects</h1>
 
 <h2>Embedded Projects</h2>

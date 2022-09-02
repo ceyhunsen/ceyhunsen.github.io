@@ -12,6 +12,9 @@ collections:
   competitions:
     output: true
     sort_by: category
+  experience:
+    output: true
+    sort_by: no
 
 defaults:
   - scope:
