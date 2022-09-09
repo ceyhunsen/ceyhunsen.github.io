@@ -1,8 +1,8 @@
 @import "variables.css";
 
 html {
-	font-family: "IBM Plex Sans", helvetica;
-	font-size: medium;
+	font-family: system-ui;
+	font-size: large;
 }
 
 body {
@@ -21,6 +21,17 @@ a:hover {
 
 li {
 	list-style-type: disc;
+}
+
+blockquote {
+	background-color: var(--background-first);
+	color: var(--font-second);
+	font-style: italic;
+	margin: 0px 10px;
+}
+
+blockquote p {
+	margin: 0px 20px;
 }
 
 .main_content {

@@ -9,9 +9,9 @@ nav a {
 
 nav a:link,
 nav a:visited {
-	color: var(--font-first);
+	color: var(--font-second);
 }
 
 nav a:hover {
-	color: var(--font-second);
+	color: var(--font-first);
 }

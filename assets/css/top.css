@@ -15,16 +15,13 @@
 	font-size: xx-large;
 }
 
-.logo:hover {
-	color: var(--font-second);
-}
-
 .cv {
-	color: var(--font-first);
+	color: var(--font-second);
 	text-decoration: none;
 	font-size: larger;
 }
-
+ 
 .cv:hover {
-	color: var(--font-second);
+	color: var(--font-first);
+	text-decoration: underline;
 }

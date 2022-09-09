@@ -5,7 +5,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 livereload: true
 timezone: "Europe/Istanbul"
 
-collections_dir: _collections
+# collections_dir: _collections
 collections:
   projects:
     output: true
@@ -16,6 +16,9 @@ collections:
   experience:
     output: true
     sort_by: no
+  posts:
+    output: true
+    sort_by: date
 
 defaults:
   - scope:
