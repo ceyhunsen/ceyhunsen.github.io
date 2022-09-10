@@ -42,7 +42,7 @@ title: Projects
 <h1>Competitions</h1>
 
 <ul>
-	{% for competition in site.competitions %}
+	{% for competition in site.competitions reversed %}
 		<li>
 			<a href="{{ competition.url }}" class="list_item_link">{{ competition.title }}</a>
 		</li>
