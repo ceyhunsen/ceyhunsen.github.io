@@ -5,17 +5,6 @@ markdown_ext: "md"
 livereload: true
 timezone: "Europe/Istanbul"
 
-collections:
-  experience:
-    output: true
-    sort_by: orderno
-  projects:
-    output: true
-    sort_by: category
-  competitions:
-    output: true
-    sort_by: orderno
-
 defaults:
   - scope:
       path: ""
