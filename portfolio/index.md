@@ -17,8 +17,8 @@ title: Portfolio
   * Design and develop React Native mobile app
     * Database connection
     * IOT device pairing
-* Android AOSP driver support
-  * Add proprietary driver to Android AOSP code base
+* Android driver support
+  * Add proprietary driver to Android code base
   * Update SELinux policies
 * Refactor SOM test sofware
   * Add new module tests
