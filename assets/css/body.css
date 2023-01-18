@@ -3,6 +3,7 @@
 html {
 	font-family: system-ui;
 	font-size: large;
+	line-height: 1.5;
 }
 
 body {
@@ -27,11 +28,11 @@ blockquote {
 	background-color: var(--background-first);
 	color: var(--font-second);
 	font-style: italic;
-	margin: 0px 10px;
+	margin: auto;
 }
 
 blockquote p {
-	margin: 0px 20px;
+	margin: 20px 15px;
 }
 
 .main_content {
@@ -49,6 +50,7 @@ blockquote p {
 
 .content p {
 	text-align: justify;
+	max-width: device-width;
 }
 
 .content img {
