@@ -2,7 +2,10 @@
  * Styling for the top of the page.
  **/
 
-.top {
+/**
+ * Top bar styling.
+ **/
+.top_bar {
 	text-align: center;
 	overflow: hidden;
 	padding: 10px;
@@ -11,18 +14,26 @@
 	line-height: 200%;
 }
 
-.logo {
+/**
+ * Logo section in top bar.
+ **/
+.top_bar_logo {
 	color: var(--font-first);
 	text-decoration: none;
 	font-size: xx-large;
 }
+.top_bar_logo:hover {
+	text-decoration: underline;
+}
 
+/**
+ * CV button.
+ **/
 .cv {
 	color: var(--font-second);
 	text-decoration: none;
 	font-size: larger;
 }
- 
 .cv:hover {
 	color: var(--font-first);
 	text-decoration: underline;
