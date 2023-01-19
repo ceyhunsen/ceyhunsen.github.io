@@ -2,37 +2,31 @@
  * Styling for elements in body tag.
  **/
 
+/**
+ * Main content box.
+ **/
 .main_content {
 	display: flex;
 	justify-content: center;
 	text-align: center;
 }
 
+/**
+ * Main content.
+ **/
 .content {
 	text-align: left;
-	width: 750px;
-	max-width: device-width;
+	width: 750px;            /* Use maximum of 750 pixels for the width. */
+	max-width: device-width; /* Use no more than device width. */
 	margin: 15px;
 }
-
 .content p {
 	text-align: justify;
 	max-width: device-width;
 }
-
 .content img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 75%;
-}
-
-.list_item_link {
-	text-decoration: none;
-	color: var(--font-second);
-}
-
-.list_item_link:hover {
-	text-decoration: underline;
-	color: var(--font-first);
 }

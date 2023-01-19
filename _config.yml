@@ -5,6 +5,11 @@ markdown_ext: "md"
 livereload: true
 timezone: "Europe/Istanbul"
 
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title
+
 defaults:
   - scope:
       path: ""

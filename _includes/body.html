@@ -1,14 +1,8 @@
 <body>
-	<div class="top_bar">
-		<a href="/" class="top_bar_logo">Ceyhun Şen</a>
-		{% include navigation.html %}
-		<a href="/assets/pdf/ceyhun_sen_cv.pdf" target="_blank" class="cv">CV</a>
-	</div>
+	{% include top_bar.html %}
 	<div class="main_content">
-		<div class="content">
-			<main>
-				{{ content }}
-			</main>
-		</div>
+		<main class="content">
+			{{ content }}
+		</main>
 	</div>
 </body>
