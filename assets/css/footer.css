@@ -1,4 +1,6 @@
-@import "variables.css";
+/**
+ * Styling for footer.
+ **/
 
 footer {
 	border-top: 1px dotted var(--font-second);

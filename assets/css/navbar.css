@@ -1,4 +1,6 @@
-@import "variables.css";
+/**
+ * Styling for navigation bar.
+ **/
 
 nav a {
 	font-size: medium;

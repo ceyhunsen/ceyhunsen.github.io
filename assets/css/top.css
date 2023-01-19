@@ -1,10 +1,12 @@
-@import "variables.css";
+/**
+ * Styling for the top of the page.
+ **/
 
 .top {
 	text-align: center;
 	overflow: hidden;
 	padding: 10px;
-	background-color: var(--background-first);
+	background-color: var(--background-second);
 	color: var(--font-first);
 	line-height: 200%;
 }
