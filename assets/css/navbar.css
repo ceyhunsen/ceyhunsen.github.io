@@ -6,7 +6,7 @@ nav a {
 	font-size: medium;
 	width: fit-content;
 	word-spacing: 10px;
-	/* text-decoration: none; */
+	text-decoration: none;
 }
 
 nav a:link,

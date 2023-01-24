@@ -2,7 +2,7 @@
  * Styling for code sections. Based on monokai.
  **/
 
-.highlight pre { background-color: var(--background-second); }
+.highlight pre { background-color: var(--background-first); }
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
