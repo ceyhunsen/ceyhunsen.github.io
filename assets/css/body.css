@@ -9,32 +9,39 @@ body {
 
 main {
 	text-align: left;
-	width: var(--width);
 	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-main p {
+
+article {
+	width: var(--width);
+}
+article p {
 	color: var(--font-first);
 }
-main a {
+article a {
 	color: var(--font-second);
 }
-main a:hover {
+article a:hover {
 	color: var(--font-first);
 }
-main li {
+article li {
 	list-style-type: disc;
 }
-main blockquote {
+article blockquote {
 	background-color: var(--background-second);
 	font-style: italic;
 	margin: auto;
 	stroke: var(--font-first);
 }
-main blockquote p {
+article blockquote p {
 	padding: var(--margin-side) var(--margin-top-bottom);
 	color: var(--font-second);
 }
-main img {
+article img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
