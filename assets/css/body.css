@@ -55,3 +55,8 @@ article img {
 		max-width: 100%;
 	}
 }
+
+div.post_date {
+	color: var(--font-second);
+	font-style: italic;
+}
