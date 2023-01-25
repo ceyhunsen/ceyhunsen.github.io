@@ -2,13 +2,49 @@
  * Styling for elements in body tag.
  **/
 
+@import "top.css";
+@import "navbar.css";
+@import "code.css";
+
 /**
- * Main content box.
+ * Link styling.
  **/
-.main_content {
+ a {
+	color: var(--font-second);
+}
+a:hover {
+	color: var(--font-first);
+}
+
+/**
+ * General styling of body.
+ **/
+body {
+	margin: 0; /* Use whole page. */
 	display: flex;
-	justify-content: center;
-	text-align: center;
+	flex-direction: column;
+	overflow-wrap: break-word;
+	align-content: center;
+}
+
+/**
+ * General styling of lists.
+ **/
+ li {
+	list-style-type: disc;
+}
+
+/**
+ * General styling of quotes.
+ **/
+blockquote {
+	background-color: var(--background-second);
+	color: var(--font-second);
+	font-style: italic;
+	margin: auto;
+}
+blockquote p {
+	margin: 20px 15px;
 }
 
 /**
@@ -17,12 +53,8 @@
 .content {
 	text-align: left;
 	width: 750px;            /* Use maximum of 750 pixels for the width. */
-	max-width: device-width; /* Use no more than device width. */
 	margin: 15px;
-}
-.content p {
-	text-align: justify;
-	max-width: device-width;
+	margin: 15px;
 }
 .content img {
 	display: block;

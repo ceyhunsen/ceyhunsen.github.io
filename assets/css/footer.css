@@ -1,15 +1,12 @@
-/**
- * Styling for footer.
- **/
+/* Footer style. */
 
 footer {
-	border-top: 1px dotted var(--font-second);
+	border-top: 1px solid var(--font-first);
 	text-align: center;
-	width: device-width;
-	line-height: 50%;
+	line-height: 0.5;
 	font-size: medium;
+	padding-bottom: var(--socials-size);
 }
-
 footer img {
 	max-height: var(--socials-size);
 }

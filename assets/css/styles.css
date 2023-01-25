@@ -1,16 +1,9 @@
-/**
- * HTML tag styles and other style imports.
- **/
+/* Main stylesheet. */
 
-@import "top.css";
-@import "navbar.css";
-@import "body.css";
+/* @import "body.css"; */
 @import "footer.css";
-@import "code.css";
 
-/**
- * Global variables.
- **/
+/* Variables. */
 :root {
 	/* Colors. */
 	--background-first: rgb(0, 0, 0);
@@ -25,51 +18,18 @@
 	--socials-size: 16px;
 }
 
-/**
- * Global settings for the whole web-site.
- **/
+/* Global settings for the whole page. */
 html {
+	/* Text options. */
 	font-family: system-ui;
 	font-size: large;
 	line-height: 1.5;
-	word-wrap: break-word;
+
+	/* Coloring. */
 	color: var(--font-first);
 	background-color: var(--background-first);
-}
 
-/**
- * Link styling.
- **/
-a {
-	color: var(--font-second);
-}
-a:hover {
-	color: var(--font-first);
-}
-
-/**
- * General styling of body.
- **/
-body {
-	margin: 0; /* Use whole page. */
-}
-
-/**
- * General styling of lists.
- **/
-li {
-	list-style-type: disc;
-}
-
-/**
- * General styling of quotes.
- **/
-blockquote {
-	background-color: var(--background-second);
-	color: var(--font-second);
-	font-style: italic;
-	margin: auto;
-}
-blockquote p {
-	margin: 20px 15px;
+	/* Page sizing. */
+	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
