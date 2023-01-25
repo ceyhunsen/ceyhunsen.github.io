@@ -48,14 +48,6 @@ article img {
 	margin-right: auto;
 	max-width: 90%;
 }
-@media only screen and (max-width: 750px) {
-	article {
-		width: 100%;
-	}
-	article img {
-		max-width: 100%;
-	}
-}
 
 header {
 	width: var(--width);
@@ -67,4 +59,16 @@ header h1 {
 div.post_date {
 	color: var(--font-second);
 	font-style: italic;
+}
+
+@media only screen and (max-width: 750px) {
+	article {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+	}
+	article img {
+		max-width: 100%;
+	}
 }
