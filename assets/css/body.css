@@ -1,43 +1,40 @@
-/**
- * Styling for elements in body tag.
- **/
+/* Body style. */
 
-@import "top.css";
-@import "navbar.css";
+@import "navigation.css";
 @import "code.css";
 
 /**
  * Link styling.
  **/
- a {
+/* a {
 	color: var(--font-second);
 }
 a:hover {
 	color: var(--font-first);
-}
+} */
 
 /**
  * General styling of body.
  **/
-body {
-	margin: 0; /* Use whole page. */
+/* body {
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 	overflow-wrap: break-word;
 	align-content: center;
-}
+} */
 
 /**
  * General styling of lists.
  **/
- li {
+ /* li {
 	list-style-type: disc;
-}
+} */
 
 /**
  * General styling of quotes.
  **/
-blockquote {
+/* blockquote {
 	background-color: var(--background-second);
 	color: var(--font-second);
 	font-style: italic;
@@ -45,14 +42,14 @@ blockquote {
 }
 blockquote p {
 	margin: 20px 15px;
-}
+} */
 
 /**
  * Main content.
  **/
-.content {
+/* .content {
 	text-align: left;
-	width: 750px;            /* Use maximum of 750 pixels for the width. */
+	width: 750px;
 	margin: 15px;
 	margin: 15px;
 }
@@ -61,4 +58,4 @@ blockquote p {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 75%;
-}
+} */
