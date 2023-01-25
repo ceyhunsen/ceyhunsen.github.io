@@ -57,6 +57,13 @@ article img {
 	}
 }
 
+header {
+	width: var(--width);
+}
+header h1 {
+	text-align: center;
+}
+
 div.post_date {
 	color: var(--font-second);
 	font-style: italic;
