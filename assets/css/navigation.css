@@ -3,6 +3,7 @@
 nav {
 	text-align: center;
 	background-color: var(--background-second);
+	padding: var(--margin-top-bottom);
 }
 nav a {
 	font-size: medium;
