@@ -7,13 +7,14 @@ title: Portfolio
 
 ### Inventron
 
-*Embedded Software Engineering Intern* | 08.2022 - 01.2023
+Embedded Software Engineering Intern | 08.2022 - 01.2023
 
 * Smart Heater IOT project
   * Design and develop embedded software
     * Database connection
     * Heater control
     * Choosing MCU and peripherals
+    * ESP8266 NodeMCU
   * Design and develop React Native mobile app
     * Database connection
     * IOT device pairing
@@ -29,46 +30,51 @@ title: Portfolio
 
 ### Enterans
 
-*Part-Time Embedded Software Engineer* | 03.2022 - 06.2022
+Part-Time Embedded Software Engineer | 03.2022 - 06.2022
 
 * Platform independent EEPROM driver
 * Platform independent F-RAM driver
-* ESP32 IOT projects
+* ESP32
 
 ## Projects
 
 ### ATmega328P HAL Drivers
 
-Project link: [github.com/ceyhunsen/ATmega328P-HAL-Driver](https://github.com/ceyhunsen/ATmega328P-HAL-Driver)
+[github.com/ceyhunsen/ATmega328P-HAL-Driver](https://github.com/ceyhunsen/ATmega328P-HAL-Driver)
 
 * Test driven development
 * C99 standard
 
 ### MPU-925X Driver
 
-Project link: [github.com/ceyhunsen/mpu925x-driver](https://github.com/ceyhunsen/mpu925x-driver)
+[github.com/ceyhunsen/mpu925x-driver](https://github.com/ceyhunsen/mpu925x-driver)
 
+* MPU-9250 and MPU-9255 sensors
 * Test driven development
 * Platform independent
-* MPU-9250 and MPU-9255 sensors
+* C99 standard
 
 ### BMP180 STM32 Driver
 
-Project link: [github.com/ceyhunsen/bmp180-stm32-driver](https://github.com/ceyhunsen/bmp180-stm32-driver)
+[github.com/ceyhunsen/bmp180-stm32-driver](https://github.com/ceyhunsen/bmp180-stm32-driver)
 
 * Designed for STM32 HAL drivers
+* C99 standard
 
 ### Bash The Dummy
 
-Project link: [github.com/ceyhunsen/Bash-the-Dummy](https://github.com/ceyhunsen/Bash-the-Dummy)
+[github.com/ceyhunsen/Bash-the-Dummy](https://github.com/ceyhunsen/Bash-the-Dummy)
 
 * Pure HTML/CSS/JavaScript game
+* Canvas
 
 ## Competitions
 
 ### Türksat Model Satellite Competition (CANSAT Like)
 
-Team Github: [github.com/btu-bursat](https://github.com/btu-bursat)
+[teknofest.org/en/competitions/competition/28](https://teknofest.org/en/competitions/competition/28)
+
+[github.com/btu-bursat](https://github.com/btu-bursat)
 
 * Software team lead as an embedded software engineer for 2 years
 * Designing and writing embedded software of model satellite
@@ -83,7 +89,10 @@ Team Github: [github.com/btu-bursat](https://github.com/btu-bursat)
     * UART
     * I2C
 * Choosing model satellite parts
-  * MCU's
+  * MCU's and MPU's
+    * STM32
+    * ESP32
+    * Raspberry Pi
   * Sensors
     * Temperature
     * Gyroscope
