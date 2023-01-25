@@ -1,9 +1,14 @@
 /* Code style. Based on Monokai.*/
 
+code {
+	font-family: monospace, system-ui;
+}
+
 div.highlight {
 	overflow: auto;
 	background-color: var(--background-second);
 }
+
 pre.highlight {
 	padding: 10px 15px;
 }

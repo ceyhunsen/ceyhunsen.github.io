@@ -23,8 +23,8 @@
 /* Global settings for the whole page. */
 html {
 	/* Text options. */
-	font-family: system-ui;
-	font-size: large;
+	font-family: sans-serif, system-ui;
+	font-size: medium;
 	line-height: 1.5;
 
 	/* Coloring. */
