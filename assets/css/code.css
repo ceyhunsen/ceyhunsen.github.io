@@ -1,11 +1,17 @@
-/**
- * Styling for code sections. Based on monokai.
- **/
+/* Code style. Based on Monokai.*/
 
-.highlight pre { background-color: var(--background-first); }
-.highlight .hll { background-color: #272822; }
+div.highlight {
+	overflow: auto;
+	background-color: var(--background-second);
+}
+pre.highlight {
+	padding: 10px 15px;
+}
+
+.highlight pre { background-color: var(--background-second); }
+.highlight .hll { background-color: var(--background-second); }
 .highlight .c { color: #75715e } /* Comment */
-.highlight .err { color: #960050; background-color: #1e0010 } /* Error */
+.highlight .err { color: #960050; background-color: var(--background-second) } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */
 .highlight .l { color: #ae81ff } /* Literal */
 .highlight .n { color: #f8f8f2 } /* Name */

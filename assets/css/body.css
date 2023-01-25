@@ -3,59 +3,40 @@
 @import "navigation.css";
 @import "code.css";
 
-/**
- * Link styling.
- **/
-/* a {
+body {
+	margin: 0;
+}
+
+main {
+	text-align: left;
+	width: var(--width);
+	padding: 5px;
+}
+main p {
+	color: var(--font-first);
+}
+main a {
 	color: var(--font-second);
 }
-a:hover {
+main a:hover {
 	color: var(--font-first);
-} */
-
-/**
- * General styling of body.
- **/
-/* body {
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	overflow-wrap: break-word;
-	align-content: center;
-} */
-
-/**
- * General styling of lists.
- **/
- /* li {
+}
+main li {
 	list-style-type: disc;
-} */
-
-/**
- * General styling of quotes.
- **/
-/* blockquote {
+}
+main blockquote {
 	background-color: var(--background-second);
-	color: var(--font-second);
 	font-style: italic;
 	margin: auto;
+	stroke: var(--font-first);
 }
-blockquote p {
-	margin: 20px 15px;
-} */
-
-/**
- * Main content.
- **/
-/* .content {
-	text-align: left;
-	width: 750px;
-	margin: 15px;
-	margin: 15px;
+main blockquote p {
+	padding: var(--margin-side) var(--margin-top-bottom);
+	color: var(--font-second);
 }
-.content img {
+main img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 75%;
-} */
+}
