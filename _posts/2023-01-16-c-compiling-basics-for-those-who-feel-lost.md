@@ -2,6 +2,7 @@
 layout: post
 title: C Compiling Basics For Those Who Feel Lost
 last_update: 16/01/23
+tags: C, build systems
 ---
 
 If you are not a `C` developer and need to compile a `C` code base, you might see some weird stuff like `make`, `cmake` and `gcc`. Assuming you are some other kind of a developer, `gcc` probably feels familiar: It's the compiler. Although you can compile every `C` code base with just a compiler in theory, it's pratically not possible. So, people created some tools to help compilation. In order to understand why we need external tools, let's look at `C` compilation basics first.

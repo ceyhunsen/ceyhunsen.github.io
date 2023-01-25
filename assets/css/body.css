@@ -61,6 +61,13 @@ div.post_date {
 	font-style: italic;
 }
 
+li.post_list_item {
+	line-height: 0.5;
+}
+p.post_tag {
+	color: var(--font-second);
+}
+
 @media only screen and (max-width: 700px) {
 	article {
 		width: 100%;
