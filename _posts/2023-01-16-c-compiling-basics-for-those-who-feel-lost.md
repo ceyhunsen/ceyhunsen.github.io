@@ -167,7 +167,7 @@ One of my colleague (had little to none experience on C/C++ before) needed to ju
 
 ## Problems With Build Systems
 
-Disclaimer: I only know `make` and just a little bit `cmake` and `autotools`.
+Note: I only know `make` and just a little bit `cmake` and `autotools`.
 
 Maybe you think the hardest part of writing a software with C is the language itself. You are 100% wrong: It's the build systems. When I first started to learn C, I just used `gcc` on cli to compile my source codes. This was OK for a little while. When I learned more and more about C, I looked at some bigger open source projects. That's where I first saw `make`. Everyone said `make` is important for a C project and everyone should use it. So, I learned it a bit. But I should say: I struggled more learning `make` and writing `Makefile`'s than learning C and writing programs with it. I mean the documentation is good but it is huge. So as a beginner, I used some beginner friendly websites. At the end of the day (literally) I successfully wrote a `Makefile` for my little project.
 
