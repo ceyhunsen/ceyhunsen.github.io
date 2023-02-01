@@ -2,7 +2,7 @@
 
 This directory includes my (Ceyhun Şen) personal website.
 
-If you want to check out my website, visit [ceyhunsen.github.io](https://ceyhunsen.github.io/).
+If you want to check out my website, visit [ceyhunsen.me](https://ceyhunsen.me).
 
 ## How To Build
 
