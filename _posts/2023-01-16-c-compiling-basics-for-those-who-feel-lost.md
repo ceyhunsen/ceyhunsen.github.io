@@ -163,7 +163,7 @@ ut the code and not on compiling it. And I have to say, they fail. I mean, I did
 
 One of my colleague (had little to none experience on C/C++ before) needed to just compile an open source C++ project which uses `cmake` as the build system. The compilation was failing and she had no clue why. When I looked at it, I saw that project includes a C++ 20 standard library header and her compiler (`g++` on Ubuntu 20.04) wasn't supported that standard. So, she tried to upgrade `cmake` naturally, as she thought it was the compiler. This made me realize, compiling a C/C++ program is unnecessarily complex and cumbersome. I mean she is a software engineer and she compiled and used some other projects in different languages but with C/C++, it was another story. So many people think C is an ancient language that needs to die, and they don't even know this build system hell hole. Guess what they will think of this after that. But we can't do anything for this, can we? Unless someone brave enough comes up and creates "the better" build system.
 
-![Relevant xkcd](/assets/img/posts/c_compiling_basics_for_those_who_feel_lost/standards.png)
+![Relevant xkcd: Standards https://xkcd.com/927/](/assets/img/posts/c_compiling_basics_for_those_who_feel_lost/standards.png)
 
 ## Problems With Build Systems
 
