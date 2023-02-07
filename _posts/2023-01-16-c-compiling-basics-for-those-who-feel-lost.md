@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C Compiling Basics For Those Who Feel Lost
-last_update: 27/01/23
+last_update: 08/02/23
 tags: C, build systems
 ---
 
@@ -158,8 +158,7 @@ Lazy people who don't want to deal with this compilation turmoil, created build 
 
 The most popular is probably the `make`. And I can say, it is a pain in the ass to write an useful `Makefile` (which is the `make` "recipe"). When I start a new C project, I spend my first day only to create a `Makefile` and it mostly sucked. Some other people thought this a lot I assume, they created a higher level build system that creates `Makefile`'s. `cmake` and `autotools` are the 2 examples of this. The same story can be applied to rest, I assume.
 
-The point of these build systems is: Let the developer worry aboPoint of these build systems is: Let the developer worry about the code and not on compiling it. And I have to say, they fail. I mean, I didn't use `ninja` or `meson` and used `cmake` just a little bit. But when I look at Rust, `cargo` just solves so many unnecessary issues that C introduces. I don't have to deal with third party library compilation, compile time definitions or header files. I just run `cargo` on root directory and `cargo` will just compile stuff. I am not sure this is because of C's design or build systems, but there is an obvious problem.
-ut the code and not on compiling it. And I have to say, they fail. I mean, I didn't used `ninja` or `meson` and used `cmake` just a little bit But when I look at Rust, `cargo` just solves so many unnecessary issues that C introduces. I don't have to deal with third party library compilation, compile time definitions or header files. I just run `cargo` on root directory and `cargo` will just compile stuff. I am not sure this is because of C's design or build systems, but there is an obvious problem.
+The point of these build systems is: Let the developer worry about the code and not on compiling it. And I have to say, they fail. I mean, I didn't use `ninja` or `meson` and used `cmake` just a little bit. But when I look at Rust, `cargo` just solves so many unnecessary issues that C introduces. I don't have to deal with third party library compilation, compile time definitions or header files. I just run `cargo` on root directory and `cargo` will just compile stuff. I am not sure this is because of C's design or build systems, but there is an obvious problem.
 
 One of my colleague (had little to none experience on C/C++ before) needed to just compile an open source C++ project which uses `cmake` as the build system. The compilation was failing and she had no clue why. When I looked at it, I saw that project includes a C++ 20 standard library header and her compiler (`g++` on Ubuntu 20.04) wasn't supported that standard. So, she tried to upgrade `cmake` naturally, as she thought it was the compiler. This made me realize, compiling a C/C++ program is unnecessarily complex and cumbersome. I mean she is a software engineer and she compiled and used some other projects in different languages but with C/C++, it was another story. So many people think C is an ancient language that needs to die, and they don't even know this build system hell hole. Guess what they will think of this after that. But we can't do anything for this, can we? Unless someone brave enough comes up and creates "the better" build system.
 
