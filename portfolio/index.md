@@ -7,8 +7,14 @@ title: Portfolio
 
 ### Inventron
 
+[inventron.com.tr](https://inventron.com.tr/wp/)
+
+Part-time Embedded Software Engineer | 02.2023 - Today
 Embedded Software Engineering Intern | 08.2022 - 01.2023
 
+* Linux Driver Development
+  * Device tree
+  * Various device drivers
 * Smart Heater IOT project
   * Design and develop embedded software
     * Database connection
