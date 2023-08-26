@@ -9,30 +9,23 @@ title: Portfolio
 
 [inventron.com.tr](https://inventron.com.tr/wp/)
 
-Part-time Embedded Software Engineer | 02.2023 - Today
+Embedded Software Engineer | 09.2023 - Today
+Part-time Embedded Software Engineer | 02.2023 - 08.2023
 Embedded Software Engineering Intern | 08.2022 - 01.2023
 
 * Linux Driver Development
-  * Device tree
+  * Device tree configuration
   * Various device drivers
-* Smart Heater IOT project
-  * Design and develop embedded software
-    * Database connection
-    * Heater control
-    * Choosing MCU and peripherals
-    * ESP8266 NodeMCU
-  * Design and develop React Native mobile app
-    * Database connection
-    * IOT device pairing
-* Android driver support
-  * Add proprietary driver to Android code base
-  * Update SELinux policies
-* Refactor SOM test sofware
-  * Add new module tests
-  * Modify existing tests
-  * Add new CLI flags
-  * Add configuration file reader
-  * Add report functionality
+* IOT projects
+  * Database connected smart devices
+  * React Native mobile companion application
+* Android Open Source Project
+  * AOSP porting for brand new devices
+  * Proprietary driver configuration
+  * SELinux and policy configurations
+* SOM Production Test Software
+  * Peripheral tests on Linux
+  * Peripheral benchmarking
 
 ### Enterans
 
