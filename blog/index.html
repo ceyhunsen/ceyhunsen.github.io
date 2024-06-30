@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Posts
+title: Blog
 ---
 
-<h1>My Posts</h1>
+<h1>My Blog</h1>
 
 <p>
 I wrote all kind of stuff on my blog, that are not specific to put any other
@@ -11,7 +11,7 @@ category. These are almost always about my life.
 </p>
 
 <ul>
-	{% for post in site.posts %}
+	{% for post in site.blog %}
 	<li class="post_list_item">
 		<a href="{{ post.url }}">{{ post.title }}</a>
 		<p>Release: {{ post.date | date: "%d/%m/%y" }}, last update: {{ post.last_update }}</p>

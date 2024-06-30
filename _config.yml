@@ -6,7 +6,7 @@ livereload: true
 timezone: "Europe/Istanbul"
 
 collections:
-  posts:
+  blog:
     output: true
     permalink: /:collection/:title
   technical:
@@ -16,9 +16,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "blog"
     values:
-      layout: "post"
+      layout: "blog"
   - scope:
       path: ""
       type: "technical"
