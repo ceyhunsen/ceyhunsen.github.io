@@ -1,0 +1,12 @@
+/* Footer style. */
+
+footer {
+	border-top: 1px solid var(--font-first);
+	text-align: center;
+	line-height: 0.5;
+	font-size: medium;
+	padding-bottom: var(--socials-size);
+}
+footer img {
+	max-height: var(--socials-size);
+}

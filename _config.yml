@@ -1,0 +1,26 @@
+title: "Ceyhun Şen"
+
+encoding: "utf-8"
+markdown_ext: "md"
+livereload: true
+timezone: "Europe/Istanbul"
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - LICENSE
+  - README.md

@@ -1,0 +1,13 @@
+<nav>
+	<div>
+		<a id="logo" href="/">Ceyhun Şen</a>
+	</div>
+	<div>
+		{% for item in site.data.navigation %}
+			<a href="{{ item.link }}">{{ item.name }}</a>
+		{% endfor %}
+	</div>
+	<div>
+		<a id="resume" href="/assets/pdf/ceyhun_sen_resume.pdf" target="_blank">Resume</a>
+	</div>
+</nav>

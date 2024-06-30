@@ -1,0 +1,8 @@
+# Jekyll
+
+.jekyll-cache/
+_site/
+
+# Editor Stuff
+
+.vscode/

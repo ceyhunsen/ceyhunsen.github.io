@@ -1,0 +1,81 @@
+/* Body style. */
+
+@import "navigation.css";
+@import "code.css";
+
+body {
+	margin: 0;
+}
+
+main {
+	text-align: left;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: var(--margin-top-bottom);
+}
+
+article {
+	width: var(--width);
+}
+article p {
+	color: var(--font-first);
+}
+article a {
+	color: var(--font-second);
+}
+article a:hover {
+	color: var(--font-first);
+}
+article li {
+	list-style-type: disc;
+}
+article blockquote {
+	background-color: var(--background-second);
+	font-style: italic;
+	margin: auto;
+	stroke: var(--font-first);
+}
+article blockquote p {
+	padding: var(--margin-side) var(--margin-top-bottom);
+	color: var(--font-second);
+}
+article img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+}
+
+header {
+	width: var(--width);
+}
+header h1 {
+	text-align: center;
+}
+
+div.post_date {
+	color: var(--font-second);
+	font-style: italic;
+}
+
+li.post_list_item {
+	line-height: 0.5;
+}
+p.post_tag {
+	color: var(--font-second);
+}
+
+@media only screen and (max-width: 700px) {
+	article {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+	}
+	article img {
+		max-width: 100%;
+	}
+}
