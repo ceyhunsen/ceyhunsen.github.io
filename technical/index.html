@@ -1,0 +1,21 @@
+---
+layout: default
+title: Technical Writings
+---
+
+<h1>Technical Writings</h1>
+
+<p>
+Here you can find find the technical stuff I wrote for having fun, learning and to sharing my
+knowledge.
+</p>
+
+<ul>
+	{% for post in site.technical %}
+	<li class="post_list_item">
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		<p>Release: {{ post.date | date: "%d/%m/%y" }}, last update: {{ post.last_update }}</p>
+		<p class="post_description">{{ post.description }}</p>
+	</li>
+	{% endfor %}
+</ul>

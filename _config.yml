@@ -9,6 +9,9 @@ collections:
   posts:
     output: true
     permalink: /:collection/:title
+  technical:
+    output: true
+    permalink: /:collection/:title
 
 defaults:
   - scope:
@@ -16,6 +19,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "technical"
+    values:
+      layout: "technical"
   - scope:
       path: ""
     values:
