@@ -12,6 +12,9 @@ collections:
   technical:
     output: true
     permalink: /:collection/:title
+  adventures:
+    output: true
+    permalink: /:collection/:title
 
 defaults:
   - scope:
@@ -24,6 +27,11 @@ defaults:
       type: "technical_writings"
     values:
       layout: "technical"
+  - scope:
+      path: ""
+      type: "adventures"
+    values:
+      layout: "adventures"
   - scope:
       path: ""
     values:

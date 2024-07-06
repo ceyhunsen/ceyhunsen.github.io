@@ -1,0 +1,20 @@
+---
+layout: default
+title: Adventures
+---
+
+<h1>My Adventures</h1>
+
+<p>
+My adventures.
+</p>
+
+<ul>
+	{% for post in site.adventures %}
+	<li class="post_list_item">
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		<p>Release: {{ post.date | date: "%d/%m/%y" }}, last update: {{ post.last_update }}</p>
+		<p class="post_description">{{ post.description }}</p>
+	</li>
+	{% endfor %}
+</ul>
