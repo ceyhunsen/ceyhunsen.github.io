@@ -21,7 +21,7 @@ defaults:
       layout: "blog"
   - scope:
       path: ""
-      type: "technical"
+      type: "technical_writings"
     values:
       layout: "technical"
   - scope:
