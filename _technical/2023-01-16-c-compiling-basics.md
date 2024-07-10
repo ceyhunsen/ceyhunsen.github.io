@@ -1,8 +1,7 @@
 ---
 layout: technical
-title: C Compiling Basics For Those Who Feel Lost
-last_update: 08/02/23
-tags: C, build systems
+title: C Compiling Basics
+description: A basic introduction to compiling C programs
 ---
 
 Note: This writing is copied from my blog and it's not in the best format tbh. It will be reformatted soon.
