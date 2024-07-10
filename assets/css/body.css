@@ -68,7 +68,7 @@ p.post_tag {
 	color: var(--font-second);
 }
 p.post_description {
-	color: var(--font-second);
+	color: var(--font-first);
 }
 
 @media only screen and (max-width: 700px) {

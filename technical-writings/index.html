@@ -14,7 +14,7 @@ Here you can find find the technical stuff I wrote.
 	<li class="post_list_item">
 		<a href="{{ post.url }}">{{ post.title }}</a>
 		<p class="post_description">{{ post.description }}</p>
-		<p>{{ post.date | date: "%d/%m/%y" }}</p>
+		<div class="post_date"><p></p><time>{{ post.date | date: "%d/%m/%y" }}</time></p></div>
 	</li>
 	{% endfor %}
 </ul>
