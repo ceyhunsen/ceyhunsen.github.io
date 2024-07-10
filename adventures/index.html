@@ -13,8 +13,7 @@ My adventures.
 	{% for post in site.adventures %}
 	<li class="post_list_item">
 		<a href="{{ post.url }}">{{ post.title }}</a>
-		<p>Release: {{ post.date | date: "%d/%m/%y" }}, last update: {{ post.last_update }}</p>
-		<p class="post_description">{{ post.description }}</p>
+		<div class="post_date"><p><time>{{ post.date | date: "%d/%m/%y" }}</time></p></div>
 	</li>
 	{% endfor %}
 </ul>
