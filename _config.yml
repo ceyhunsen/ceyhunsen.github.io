@@ -9,7 +9,7 @@ collections:
   blog:
     output: true
     permalink: /:collection/:title
-  technical:
+  technical-writings:
     output: true
     permalink: /:collection/:title
   adventures:
@@ -24,7 +24,7 @@ defaults:
       layout: "blog"
   - scope:
       path: ""
-      type: "technical_writings"
+      type: "technical-writings"
     values:
       layout: "technical"
   - scope:
