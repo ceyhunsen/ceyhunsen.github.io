@@ -1,6 +1,6 @@
 # Jekyll
 
-.jekyll-cache/
+.jekyll*
 _site/
 
 # Editor Stuff
