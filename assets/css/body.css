@@ -61,6 +61,25 @@ div.post_date {
 	font-style: italic;
 }
 
+a.post_box {
+	text-decoration: none; 
+}
+a.post_box:hover {
+	text-decoration: underline; 
+}
+
+div.post_list_item {
+	list-style-type: none;
+	line-height: 0.5;
+	background-color: var(--background-second);
+	border-color:var(--background-third);
+	border-style: inset;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+}
+div.post_list_item:hover {
+	background-color: var(--background-third);
+}
 li.post_list_item {
 	line-height: 0.5;
 }

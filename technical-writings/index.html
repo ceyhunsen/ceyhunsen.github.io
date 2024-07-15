@@ -9,12 +9,12 @@ title: Technical Writings
 Here you can find find the technical stuff I wrote.
 </p>
 
-<ul>
-	{% for post in site.technical-writings %}
-	<li class="post_list_item">
-		<a href="{{ post.url }}">{{ post.title }}</a>
+{% for post in site.technical-writings %}
+<a class="post_box" href="{{ post.url }}">
+	<div class="post_list_item">
+		<p>{{ post.title }}</p>
 		<p class="post_description">{{ post.description }}</p>
 		<div class="post_date"><p></p><time>{{ post.date | date: "%d/%m/%y" }}</time></p></div>
-	</li>
-	{% endfor %}
-</ul>
+	</div>
+</a>
+{% endfor %}
