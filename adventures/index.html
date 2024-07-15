@@ -5,11 +5,11 @@ title: Adventures
 
 <h1>My Adventures</h1>
 
-<ul>
-	{% for post in site.adventures %}
-	<li class="post_list_item">
-		<a href="{{ post.url }}">{{ post.title }}</a>
-		<div class="post_date"><p><time>{{ post.date | date: "%d/%m/%y" }}</time></p></div>
-	</li>
-	{% endfor %}
-</ul>
+{% for post in site.adventures %}
+<a class="post_box" href="{{ post.url }}">
+	<div class="post_list_item">
+		<p>{{ post.title }}</p>
+		<div class="post_date"><time>{{ post.date | date: "%d/%m/%y" }}</time></div>
+	</div>
+</a>
+{% endfor %}
