@@ -70,7 +70,7 @@ a.post_box:hover {
 
 div.post_list_item {
 	list-style-type: none;
-	line-height: 0.5;
+	line-height: 1;
 	background-color: var(--background-second);
 	border-color:var(--background-third);
 	border-style: inset;
@@ -81,7 +81,7 @@ div.post_list_item:hover {
 	background-color: var(--background-third);
 }
 li.post_list_item {
-	line-height: 0.5;
+	line-height: 1;
 }
 p.post_tag {
 	color: var(--font-second);
