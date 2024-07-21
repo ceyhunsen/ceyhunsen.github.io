@@ -5,7 +5,7 @@ cover: cover.jpg
 ---
 
 I went Mudanya/Bursa to see Kapanca Ancient Harbor from Istanbul, my home. Along
-the way, I was astonished by the view of both old Yalova to Bursa and Mudanya's
+the way, I was astonished by the view of both Yalova to Bursa road and Mudanya
 road along the shoreline. Unfortunately, I couldn't take any photos while I was
 riding (obviously).
 
