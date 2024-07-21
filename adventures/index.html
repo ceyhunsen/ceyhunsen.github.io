@@ -8,6 +8,7 @@ title: Adventures
 {% for post in site.adventures %}
 <a class="post_box" href="{{ post.url }}">
 	<div class="post_list_item">
+		<img src="/assets/img{{ post.id }}/{{ post.cover }}">
 		<p>{{ post.title }}</p>
 		<div class="post_date"><time>{{ post.date | date: "%d/%m/%y" }}</time></div>
 	</div>
