@@ -6,7 +6,8 @@ title: Blog
 <h1>My Blog</h1>
 
 <ul>
-	{% for post in site.blog %}
+	{% assign blog = site.blog | reverse %}
+	{% for post in blog %}
 	<li class="post_list_item">
 		<a href="{{ post.url }}">{{ post.title }}</a>
 		<p>Release: {{ post.date | date: "%d/%m/%y" }}, last update: {{ post.last_update }}</p>

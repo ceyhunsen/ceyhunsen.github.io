@@ -5,7 +5,8 @@ title: Adventures
 
 <h1>My Adventures</h1>
 
-{% for post in site.adventures %}
+{% assign adventures = site.adventures | reverse %}
+{% for post in adventures %}
 <a class="post_box" href="{{ post.url }}">
 	<div class="post_list_item">
 		<img src="/assets/img{{ post.id }}/{{ post.cover }}">

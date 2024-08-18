@@ -5,7 +5,8 @@ title: Technical Writings
 
 <h1>Technical Writings</h1>
 
-{% for post in site.technical-writings %}
+{% assign technical_writings = site.technical-writings | reverse %}
+{% for post in technical_writings %}
 <a class="post_box" href="{{ post.url }}">
 	<div class="post_list_item">
 		<p>{{ post.title }}</p>
