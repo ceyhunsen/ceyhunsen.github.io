@@ -3,7 +3,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Ceyhun Şen">
 	<meta name="description" content="Ceyhun Şen's Personal Website">
-	<meta name="keywords" content="Ceyhun Şen, Personal Website, Blog, Portfolio, Computer Engineer">
-	<title>{{ page.title }} - {{ site.title }}</title>
+	<meta name="keywords" content="Ceyhun Şen, Personal Website, Blog, Portfolio, Computer Engineer, Low Level">
+
+	{% if page.homepage == true %}
+		<title>{{ site.title }}</title>
+	{% else %}
+		<title>{{ page.title }} - {{ site.title }}</title>
+	{% endif %} 
+
 	<link rel="stylesheet" href="/assets/css/styles.css">
 </head>
