@@ -9,7 +9,7 @@ central place that you can download "the C compiler" or read the language
 documentation. Don't you worry though, there is a language reference, from ISO.
 But it isn't free. So, maybe worry a little?
 
-With lack of the central authority and the wide adoption of the language[^1]
+With lack of the central authority and the wide adoption of the language
 resulted community driven compilers/libraries to emerge. Meaning there is no
 so-called default compiler but community driven and hugely populer
 compilers/libraries.
@@ -60,7 +60,7 @@ They are completly different compilers and developed by completely different
 teams. But they function the same and used the same for the developer. Examples
 will be based on `gcc` simply because I use that as my main C compiler.
 
-They follow the standards developed by international organizations like ISO[^3].
+They follow the standards developed by international organizations like ISO[^1].
 
 For bare-metal targets, you mostly will need another compiler for your target
 architecture. For example: You want to compile your code to ARM CPU's without
@@ -295,7 +295,7 @@ There are some stories I want to tell about compiling C programs:
 
 Back in the day, I tried to install `gcc` to my friend's Windows laptop,
 needless to say it was painful. Firstly, `gcc` is not natively supported on
-Windows. So some other guys ported `gcc` to Windows and called it MinGW[^4]. If
+Windows. So some other guys ported `gcc` to Windows and called it MinGW[^3]. If
 you search it on the internet, you will most likely see SourceForge links at the
 top of the page. What? I get that there was no official C website but this was
 too much. At least put the binaries in Github or something. When I first
@@ -341,7 +341,6 @@ compile one or worse write a compiling instruction, good luck.
 
 ## Sources
 
-[^1]: [https://en.wikipedia.org/wiki/C_(programming_language)](https://en.wikipedia.org/wiki/C_(programming_language))
+[^1]: [https://en.wikipedia.org/wiki/C_(programming_language)#ANSI_C_and_ISO_C](https://en.wikipedia.org/wiki/C_(programming_language)#ANSI_C_and_ISO_C)
 [^2]: [https://stackoverflow.com/a/9182835/11719950)](https://stackoverflow.com/a/9182835/11719950))
-[^3]: [https://en.wikipedia.org/wiki/C_(programming_language)#ANSI_C_and_ISO_C](https://en.wikipedia.org/wiki/C_(programming_language)#ANSI_C_and_ISO_C)
-[^4]: [https://en.wikipedia.org/wiki/MinGW](https://en.wikipedia.org/wiki/MinGW)
+[^3]: [https://en.wikipedia.org/wiki/MinGW](https://en.wikipedia.org/wiki/MinGW)
