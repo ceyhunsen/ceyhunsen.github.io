@@ -5,18 +5,13 @@ title: Blog
 
 <h1>My Blog</h1>
 
-<ul>
-	{% assign blog = site.blog | reverse %}
-	{% for post in blog %}
-	<li class="post_list_item">
-		<a href="{{ post.url }}">{{ post.title }}</a>
-		<p>Release: {{ post.date | date: "%d/%m/%y" }}, last update: {{ post.last_update }}</p>
-		<p class="post_tag">
-			Tags:
-			{% for tag in post.tags %}
-				{{ tag }}
-			{% endfor %}
-		</p>
-	</li>
-	{% endfor %}
-</ul>
+{% assign blog = site.blog | reverse %}
+{% for post in blog %}
+<a class="post_box" href="{{ post.url }}">
+	<div class="post_list_item">
+		<p>{{ post.title }}</p>
+		<p class="post_description">{{ post.description }}</p>
+		<div class="post_date"><p></p><time>{{ post.date | date: "%d/%m/%y" }}</time></p></div>
+	</div>
+</a>
+{% endfor %}
