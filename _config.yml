@@ -40,3 +40,8 @@ defaults:
 exclude:
   - LICENSE
   - README.md
+
+# For the sitemap generation
+url: "https://ceyhunsen.me"
+plugins:
+  - jekyll-sitemap
