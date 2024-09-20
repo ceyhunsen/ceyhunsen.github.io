@@ -12,7 +12,7 @@ collections:
   technical-writings:
     output: true
     permalink: /:collection/:title
-  adventures:
+  travels:
     output: true
     permalink: /:collection/:title
 
@@ -29,9 +29,9 @@ defaults:
       layout: "technical"
   - scope:
       path: ""
-      type: "adventures"
+      type: "travels"
     values:
-      layout: "adventures"
+      layout: "travels"
   - scope:
       path: ""
     values:

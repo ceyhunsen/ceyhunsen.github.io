@@ -9,8 +9,8 @@ title: Adventures
 	Here, I share details about my travels and cool places I visited.
 </p>
 
-{% assign adventures = site.adventures | reverse %}
-{% for post in adventures %}
+{% assign travels = site.travels | reverse %}
+{% for post in travels %}
 <a class="post_box" href="{{ post.url }}">
 	<div class="post_list_item">
 		<img src="/assets/img{{ post.id }}/{{ post.cover }}">

@@ -1,5 +1,5 @@
 ---
-layout: adventures
+layout: travels
 title: A Trip To Kapanca Ancient Harbor
 cover: kapanca_ancient_harbor.jpg
 ---
