@@ -1,5 +1,5 @@
 ---
-layout: travels
+layout: travel_logs
 title: A Trip To Kapanca Ancient Harbor
 cover: kapanca_ancient_harbor.jpg
 ---
@@ -19,11 +19,11 @@ turned upside down. Then wrote some thoughts to my notebook. I don't know if big
 ships ever ported here in the history, but it seemed that boat was the biggest
 that place can host.
 
-![Harbor](/assets/img/adventures/kapanca-ancient-harbor-trip/kapanca_ancient_harbor.jpg)
+![Harbor](/assets/img/travel-logs/kapanca-ancient-harbor-trip/kapanca_ancient_harbor.jpg)
 
 ## My Route
 
-![Route](/assets/img/adventures/kapanca-ancient-harbor-trip/route.png)
+![Route](/assets/img/travel-logs/kapanca-ancient-harbor-trip/route.png)
 
 I had to pass Yalova to arrive Bursa. I chose to take the ferry and not the
 Osmangazi Bridge bacause of the high toll prices. And I am glad that I took the
@@ -34,18 +34,18 @@ Overall, the view was great. There was a village that I really liked because of
 where it is placed: Altıntaş. If I were to pass that road again and have spare
 time, I will probably visit that village.
 
-![My Bajaj Pulsar N250](/assets/img/adventures/kapanca-ancient-harbor-trip/20240629_162501.jpg)
+![My Bajaj Pulsar N250](/assets/img/travel-logs/kapanca-ancient-harbor-trip/20240629_162501.jpg)
 
-![A small tree of some sort](/assets/img/adventures/kapanca-ancient-harbor-trip/20240629_162234.jpg)
+![A small tree of some sort](/assets/img/travel-logs/kapanca-ancient-harbor-trip/20240629_162234.jpg)
 
-![A cord along the way to Mudanya](/assets/img/adventures/kapanca-ancient-harbor-trip/20240629_162441.jpg)
+![A cord along the way to Mudanya](/assets/img/travel-logs/kapanca-ancient-harbor-trip/20240629_162441.jpg)
 
 Finally, I had to take my motorcycle offroad. To be honest, road was a bit harsh
 for my Pulsar. But the view was great. There were so many farm fields and the
 altitude was a quite high for a place that is near the coast. Nevertheless, it
 was breathtaking.
 
-![Farming fields near the harbor](/assets/img/adventures/kapanca-ancient-harbor-trip/20240629_182436.jpg)
+![Farming fields near the harbor](/assets/img/travel-logs/kapanca-ancient-harbor-trip/20240629_182436.jpg)
 
 Google Maps suggested me to go to the top of the hill near that harbor. Which is
 most of the photos you see online. Because I don't have a phone holder and just

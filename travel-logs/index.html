@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Adventures
+title: Travel Logs
 ---
 
-<h1>My Adventures</h1>
+<h1>Travel Logs</h1>
 
 <p>
 	Here, I share details about my travels and cool places I visited.
 </p>
 
-{% assign travels = site.travels | reverse %}
-{% for post in travels %}
+{% assign travel_logs = site.travel-logs | reverse %}
+{% for post in travel_logs %}
 <a class="post_box" href="{{ post.url }}">
 	<div class="post_list_item">
 		<img src="/assets/img{{ post.id }}/{{ post.cover }}">
