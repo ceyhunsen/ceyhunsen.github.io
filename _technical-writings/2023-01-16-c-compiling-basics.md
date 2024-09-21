@@ -1,5 +1,5 @@
 ---
-layout: technical
+layout: technical_writings
 title: C Compiling Basics
 description: A basic introduction to compiling C programs
 ---

@@ -1,0 +1,31 @@
+---
+layout: default
+title: Travel Logs
+---
+
+<h1>Travel Logs</h1>
+
+<p>
+	Here, I share details about my travels and cool places I visited.
+</p>
+
+{% assign travel_logs = site.travel-logs | reverse %}
+{% for post in travel_logs %}
+<a class="post_box" href="{{ post.url }}">
+	<div class="post_list_item">
+		<img src="/assets/img{{ post.id }}/{{ post.cover }}">
+		<p>{{ post.title }}</p>
+		<div class="post_date">
+		{% if post.last-visit != null %}
+			First visit: <time>{{ post.date | date: "%d/%m/%y" }}</time> <br>
+			Last visit: <time>{{ post.last-visit | date: "%d/%m/%y" }}</time> <br>
+		{% else %}
+			<time>{{ post.date | date: "%d/%m/%y" }}</time> <br>
+		{% endif %}
+		{% if post.been-there != null %}
+			Been there {{ post.been-there }} times
+		{% endif %}
+		</div>
+	</div>
+</a>
+{% endfor %}
