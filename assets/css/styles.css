@@ -5,7 +5,7 @@
 @import "code.css";
 @import "footer.css";
 
-/* Variables. */
+/* Global variables. */
 :root {
 	/* Colors. */
 	--background-first: rgb(0, 0, 0);
@@ -21,7 +21,7 @@
 	--margin-side: 1.5rem;
 }
 
-/* Global settings for the whole page. */
+/* Global settings for every page. */
 html {
 	/* Text options. */
 	font-family: sans-serif, system-ui;
