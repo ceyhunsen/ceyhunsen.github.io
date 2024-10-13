@@ -4,7 +4,7 @@ title: Rotasız Gezgin Koyu
 cover: 20240725_192340.jpg
 tags: spot
 last-visit: 2024-09-21
-been-there: multiple
+been-here: multiple
 ---
 
 Rotasız Gezgin Koyu (English translation: Routeless Traveller Bay) is a remote

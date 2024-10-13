@@ -30,8 +30,8 @@ title: Travel Logs
 		{% if post.last-visit != null %}
 			First visit: <time>{{ post.date | date: "%d/%m/%y" }}</time> <br>
 			Last visit: <time>{{ post.last-visit | date: "%d/%m/%y" }}</time> <br>
-			{% if post.been-there != null %}
-				Been there {{ post.been-there }} times
+			{% if post.been-here != null %}
+				I've been here {{ post.been-here }} times
 			{% endif %}
 		{% else %}
 			<time>{{ post.date | date: "%d/%m/%y" }}</time> <br>
