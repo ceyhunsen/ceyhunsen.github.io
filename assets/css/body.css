@@ -61,9 +61,6 @@ div.post_date {
 a.post_box {
 	text-decoration: none; 
 }
-a.post_box:hover {
-	text-decoration: underline; 
-}
 
 div.post_list_item {
 	list-style-type: none;
@@ -91,7 +88,7 @@ p.post_description {
 }
 
 div.post_tags {
-	margin-top: 1rem;
+	margin-bottom: 1rem;
 	display: flex;
 }
 div.post_tag {
