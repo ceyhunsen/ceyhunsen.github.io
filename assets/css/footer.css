@@ -1,12 +1,19 @@
 /* Footer style. */
 
+/* Variables. */
+:root {
+	--socials-size: 1rem;
+}
+
 footer {
-	border-top: 1px solid var(--font-first);
+	border-top: 0.1rem dotted var(--font-first);
 	text-align: center;
 	line-height: 0.5;
 	font-size: medium;
 	padding-bottom: var(--socials-size);
 }
+
+/* Footer contact images. */
 footer img {
 	max-height: var(--socials-size);
 }

@@ -1,9 +1,11 @@
 /* Main stylesheet. */
 
+@import "navigation.css";
 @import "body.css";
+@import "code.css";
 @import "footer.css";
 
-/* Variables. */
+/* Global variables. */
 :root {
 	/* Colors. */
 	--background-first: rgb(0, 0, 0);
@@ -14,13 +16,12 @@
 	--font-third: rgb(150, 150, 150);
 
 	/* Size constants. */
-	--width: 700px;
-	--margin-top-bottom: 10px;
-	--margin-side: 15px;
-	--socials-size: 16px;
+	--width: 50rem;
+	--margin-top-bottom: 1rem;
+	--margin-side: 1.5rem;
 }
 
-/* Global settings for the whole page. */
+/* Global settings for every page. */
 html {
 	/* Text options. */
 	font-family: sans-serif, system-ui;
