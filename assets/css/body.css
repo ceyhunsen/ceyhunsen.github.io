@@ -90,6 +90,18 @@ p.post_description {
 	color: var(--font-second);
 }
 
+div.post_tags {
+	display: flex;
+}
+div.post_tag {
+	align-items: center;
+	padding: 0.1rem 0.5rem;
+	border: 0.1rem solid var(--font-second);
+	margin-right: 0.5rem;
+	border-radius: 5px;
+	background-color: var(--background-second);
+}
+
 /* If screen is small, use whole screen. */
 @media only screen and (max-width: 50rem) {
 	article {
