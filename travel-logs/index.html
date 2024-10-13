@@ -5,10 +5,6 @@ title: Travel Logs
 
 <h1 class="collection_header">Travel Logs</h1>
 
-<p>
-	Here, I share details about my travels and cool places I visited.
-</p>
-
 {% assign travel_logs = site.travel-logs | reverse %}
 {% for post in travel_logs %}
 <a class="post_box" href="{{ post.url }}">
