@@ -3,6 +3,7 @@ layout: travel_logs
 title: A Trip To Kapanca Ancient Harbor
 cover: kapanca_ancient_harbor.jpg
 tags: trip
+last-visit: 2024-06-29
 ---
 
 I went Mudanya/Bursa to see Kapanca Ancient Harbor from Istanbul, my home. Along
