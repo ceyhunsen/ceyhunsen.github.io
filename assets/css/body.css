@@ -91,6 +91,7 @@ p.post_description {
 }
 
 div.post_tags {
+	margin-top: 1rem;
 	display: flex;
 }
 div.post_tag {
