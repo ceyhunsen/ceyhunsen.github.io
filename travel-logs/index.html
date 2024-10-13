@@ -14,7 +14,9 @@ title: Travel Logs
 <a class="post_box" href="{{ post.url }}">
 	<div class="post_list_item">
 		<!-- Cover image -->
+		{% if post.cover != null %}
 		<img src="/assets/img{{ post.id }}/{{ post.cover }}">
+		{% endif %}
 
 		<h2>{{ post.title }}</h2>
 
