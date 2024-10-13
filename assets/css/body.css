@@ -61,9 +61,6 @@ div.post_date {
 a.post_box {
 	text-decoration: none; 
 }
-a.post_box:hover {
-	text-decoration: underline; 
-}
 
 div.post_list_item {
 	list-style-type: none;
@@ -88,6 +85,19 @@ p.post_tag {
 }
 p.post_description {
 	color: var(--font-second);
+}
+
+div.post_tags {
+	margin-bottom: 1rem;
+	display: flex;
+}
+div.post_tag {
+	align-items: center;
+	padding: 0.1rem 0.5rem;
+	border: 0.1rem solid var(--font-second);
+	margin-right: 0.5rem;
+	border-radius: 5px;
+	background-color: var(--background-second);
 }
 
 /* If screen is small, use whole screen. */
