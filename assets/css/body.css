@@ -13,6 +13,9 @@ main {
 	align-items: center;
 	margin-bottom: var(--margin-top-bottom);
 }
+main h1 {
+	text-align: center;
+}
 
 article {
 	width: var(--width);
