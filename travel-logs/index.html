@@ -25,17 +25,18 @@ title: Travel Logs
 		{% endfor %}
 		</div>
 
-		<!-- Metadata -->
 		<p>{{ post.title }}</p>
+
+		<!-- Two different date options: Multiple visits and single visit -->
 		<div class="post_date">
 		{% if post.last-visit != null %}
 			First visit: <time>{{ post.date | date: "%d/%m/%y" }}</time> <br>
 			Last visit: <time>{{ post.last-visit | date: "%d/%m/%y" }}</time> <br>
+			{% if post.been-there != null %}
+				Been there {{ post.been-there }} times
+			{% endif %}
 		{% else %}
 			<time>{{ post.date | date: "%d/%m/%y" }}</time> <br>
-		{% endif %}
-		{% if post.been-there != null %}
-			Been there {{ post.been-there }} times
 		{% endif %}
 		</div>
 	</div>
