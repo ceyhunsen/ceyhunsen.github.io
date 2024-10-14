@@ -5,7 +5,9 @@ title: Travel Logs
 
 <h1 class="collection_header">Travel Logs</h1>
 
-{% assign travel_logs = site.travel-logs | reverse %}
+<!-- Create a post list with last-visit as the key. -->
+{% assign travel_logs = site.travel-logs  | sort: "last-visit" | reverse %}
+
 {% for post in travel_logs %}
 <a class="post_box" href="{{ post.url }}">
 	<div class="post_list_item">
@@ -26,15 +28,17 @@ title: Travel Logs
 		</div>
 
 		<!-- Two different date options: Multiple visits and single visit -->
+		{% assign post_date = post.date | date: "%d/%m/%y" %}
+		{% assign post_last_visit = post.last-visit | date: "%d/%m/%y" %}
 		<div class="post_date">
-		{% if post.last-visit != null %}
-			First visit: <time>{{ post.date | date: "%d/%m/%y" }}</time> <br>
-			Last visit: <time>{{ post.last-visit | date: "%d/%m/%y" }}</time> <br>
-			{% if post.been-there != null %}
-				Been there {{ post.been-there }} times
+		{% if post.last-visit != null and post_date != post_last_visit %}
+			First visit: <time>{{ post_date }}</time> <br>
+			Last visit: <time>{{ post_last_visit }}</time> <br>
+			{% if post.been-here != null %}
+				I've been here {{ post.been-here }} times
 			{% endif %}
 		{% else %}
-			<time>{{ post.date | date: "%d/%m/%y" }}</time> <br>
+			<time>{{ post_date }}</time> <br>
 		{% endif %}
 		</div>
 	</div>

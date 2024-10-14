@@ -7,6 +7,7 @@
 				{% if page.last-visit != null %}
 					First visit: <time>{{ page.date | date: "%d/%m/%y" }}</time> <br>
 					Last visit: <time>{{ page.last-visit | date: "%d/%m/%y" }}</time> <br>
+					I've been here {{ page.been-here }} times
 				{% else %}
 					<time>{{ page.date | date: "%d/%m/%y" }}</time> <br>
 				{% endif %}
