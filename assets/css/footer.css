@@ -6,7 +6,6 @@
 }
 
 footer {
-	border-top: 0.1rem dotted var(--font-first);
 	text-align: center;
 	line-height: 0.5;
 	font-size: medium;
