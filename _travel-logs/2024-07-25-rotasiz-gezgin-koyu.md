@@ -51,10 +51,29 @@ cause catastrophic results.
 
 ![There are rocks to sit on and enjoy the view](/assets/img/travel-logs/rotasiz-gezgin-koyu/20240801_200117.jpg)
 
-## Where It's Located Exactly
+## Where Is It
 
-There are some public busses that goes to Rumelifeneri. There is a bus terminal that busses stop. After that, 10 minute walk is needed. So, it is possible to go there without having a vehicle. But I suggest going there with your own vehicle at your own pace, listening a relaxed music at the background. Because roads are twisted with good view. It is quite peaceful. But be cautious, if you ride a motorcycle: There are dogs. Dogs like to run towards you when you pass them. Even worse, they hide in blind spots and you can’t notice them once it’s too late and it is quite scary. Pass them slowly or hold your legs upwards and throttle pass them.
+It is located in Sarıyer/İstanbul Turkey. It is inside the Rumelifeneri Village.
+If you follow coast side road to the west, you can see entries located at your
+right. They are quite hidden but you can see other people park their vehicles
+at the side of the road, in front of both entries. Note that if you see a beach
+while following that road: You missed the entries, turn back. Or enjoy yourself
+in that beach, your choice.
 
-Coordinates are: 41°14'19.2"N 29°06'17.7"E. Google Maps link: https://maps.app.goo.gl/xDqb7HtJQ7Aidqdv8
+Exact coordinates are 41.238938396992964, 29.103902008727104 and Google maps
+link is
+[maps.app.goo.gl/xDqb7HtJQ7Aidqdv8](https://maps.app.goo.gl/xDqb7HtJQ7Aidqdv8).
 
 ![Google Maps snip](/assets/img/travel-logs/rotasiz-gezgin-koyu/google_maps_snip.png)
+
+There are some public busses that goes to Rumelifeneri Village. Rumelifeneri
+village hosts last stop terminal for that busses. After that, 10 minute walk is
+needed. So, it is possible to go there without having a vehicle.
+
+But I suggest going there with your own vehicle at your own pace and listening a
+relaxed music at the background. Because roads are twisted and has a good view;
+It is quite peaceful to drive slowly. Be cautious, if you ride a motorcycle
+though: There are stray dogs near village. Dogs like to hide in blind spots and
+chase you when you pass them. Either pass them slowly (they will stop chasing
+you) or hold your legs upwards and throttle pass them. They probably won't
+**really** attack you.
