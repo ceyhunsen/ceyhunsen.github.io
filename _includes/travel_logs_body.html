@@ -4,13 +4,18 @@
 		<header>
 			<h1>{{ page.title }}</h1>
 			<div class="post_date">
-				{% if page.last-visit != null %}
-					First visit: <time>{{ page.date | date: "%d/%m/%y" }}</time> <br>
-					Last visit: <time>{{ page.last-visit | date: "%d/%m/%y" }}</time> <br>
+			<!-- Two different date options: Multiple visits and single visit -->
+			{% assign page_date = page.date | date: "%d/%m/%y" %}
+			{% assign page_last_visit = page.last-visit | date: "%d/%m/%y" %}
+			{% if page.last-visit != null and page_date != page_last_visit %}
+				First visit: <time>{{ page_date }}</time> <br>
+				Last visit: <time>{{ page_last_visit }}</time> <br>
+				{% if page.been-here != null %}
 					I've been here {{ page.been-here }} times
-				{% else %}
-					<time>{{ page.date | date: "%d/%m/%y" }}</time> <br>
 				{% endif %}
+			{% else %}
+				<time>{{ page_date }}</time> <br>
+			{% endif %}
 			</div>
 		</header>
 		<article>
