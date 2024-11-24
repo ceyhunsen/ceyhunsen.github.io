@@ -1,11 +1,9 @@
 # Ceyhun Şen's Personal Website
 
-**This website is discontinued!**
-
-This directory includes my (Ceyhun Şen) **old** personal website.
+This directory includes my (Ceyhun Şen) personal website.
 
 If you want to check out this website, visit
-[ceyhunsen.gihub.io](https://ceyhunsen.gihub.io) or build it locally.
+[ceyhunsen.me](https://ceyhunsen.me/) or build it locally.
 
 ## How To Build
 
