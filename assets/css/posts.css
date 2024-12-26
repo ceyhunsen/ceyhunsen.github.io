@@ -47,6 +47,18 @@ div.post_tag {
 	background-color: var(--background-second);
 }
 
+/* img + em {
+    display: block;
+    text-align: center;
+    font-style: italic;
+} */
+
+article figcaption {
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
 /* Youtube iframe responsive 100% width. */
 .videoWrapper {
     position: relative;
