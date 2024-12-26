@@ -31,9 +31,7 @@ Even though it is not long nor spectacular, motorcyclist in Istanbul likes this
 route because it is so close to city and won't take long to finish. Hell, even
 one day, I rode this route 1 hour earlier before a meetup with my friends.
 
-<video controls width="100%">
-  <source src="/assets/img/travel-logs/riva_avenue/route1.mp4" type="video/mp4" />
-</video>
+![Route](/assets/img/travel-logs/riva_avenue/route_1.gif)
 
 ## Riva Itself
 
