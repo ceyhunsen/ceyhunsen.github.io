@@ -14,28 +14,31 @@ main {
 	margin-bottom: var(--margin-top-bottom);
 }
 
-article {
+article,
+div.indexpage {
 	width: var(--width);
 }
-article p {
+article p,
+div.indexpage p {
 	color: var(--font-first);
 }
-article a {
+article a,
+div.indexpage a {
 	color: var(--font-second);
 }
-article a:hover {
+article a:hover,
+div.indexpage a:hover {
 	color: var(--font-first);
 }
-article li {
-	list-style-type: disc;
-}
-article blockquote {
+article blockquote,
+div.indexpage blockquote {
 	background-color: var(--background-second);
 	font-style: italic;
 	margin: auto;
 	stroke: var(--font-first);
 }
-article blockquote p {
+article blockquote p,
+div.indexpage blockquote p {
 	padding: var(--margin-side) var(--margin-top-bottom);
 	color: var(--font-second);
 }
@@ -53,71 +56,10 @@ header h1 {
 	text-align: center;
 }
 
-div.post_date {
-	color: var(--font-second);
-	font-style: italic;
-}
-
-a.post_box {
-	text-decoration: none; 
-}
-
-div.post_list_item {
-	list-style-type: none;
-	line-height: 1;
-	background-color: var(--background-second);
-	border-color:var(--background-third);
-	border-style: inset;
-	margin-bottom: 10px;
-	padding: 10px 20px;
-}
-div.post_list_item:hover {
-	background-color: var(--background-third);
-}
-li.post_list_item {
-	line-height: 1;
-}
-h1.collection_header {
-	text-align: center;
-}
-p.post_tag {
-	color: var(--font-second);
-}
-p.post_description {
-	color: var(--font-second);
-}
-
-div.post_tags {
-	margin-bottom: 1rem;
-	display: flex;
-}
-div.post_tag {
-	align-items: center;
-	padding: 0.1rem 0.5rem;
-	border: 0.1rem solid var(--font-second);
-	margin-right: 0.5rem;
-	border-radius: 5px;
-	background-color: var(--background-second);
-}
-
-/* Youtube iframe responsive 100% width. */
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
-    overflow: hidden;
-}
-.videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 /* If screen is small, use whole screen. */
 @media only screen and (max-width: 50rem) {
-	article {
+	article,
+	div.indexpage {
 		width: 100%;
 	}
 	header {
