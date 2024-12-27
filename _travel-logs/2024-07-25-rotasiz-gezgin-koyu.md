@@ -15,16 +15,28 @@ I sometimes go here to chill out, after work. You can bring your own camping
 chair or sit on a rock to enjoy the view. There are also some small places to
 camp. But beware that there are strong winds coming from Black Sea.
 
-![Panoramic picture of the camping spaces](/assets/img/travel-logs/rotasiz-gezgin-koyu/20240801_200643.jpg)
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/20240801_200643.jpg"
+  description="Panoramic picture of the camping spaces"
+%}
 
 Sunset is not as spectacular as it should be: There is a hill that blocks the
 view. I got a feeling that sunrise should be better, though. Because east side
 has a more clear view. But never been there early in the morning so it's only my
 assumption.
 
-![Sunset](/assets/img/travel-logs/rotasiz-gezgin-koyu/20240801_200802.jpg)
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/20240801_200802.jpg"
+  description="Sunset at the bay"
+%}
 
-![East side of the bay](/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_193257.jpg)
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_193257.jpg"
+  description="East side of the bay"
+%}
 
 There are two possible entries to the bay and they are ending with two different
 bays, which are not connected. Each of the entries are quite narrow. Be careful
@@ -35,11 +47,23 @@ nice green view will welcome you. This part also has a small beach but sand is
 quite rough, though. I sometimes see people swimming in that beach and doing
 high dives from rocks inside the sea.
 
-![Welcoming view](/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_191733.jpg)
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_191733.jpg"
+  description="Welcoming view"
+%}
 
-![The beach](/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_193822.jpg)
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_193822.jpg"
+  description="The beach"
+%}
 
-![Some of the rocks to do a high dive](/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_193031.jpg)
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_193031.jpg"
+  description="Some of the rocks to do a high dive"
+%}
 
 Second part is much more bigger and higher than the sea level. It is not very
 possible to swim here. But I like this part more because the view is better.
@@ -47,9 +71,17 @@ There are couple of cliffs which have totally different views. But please be
 careful when navigating around them because terrain can be quite soft and it can
 cause catastrophic results.
 
-![View from a cliff](/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_192340.jpg)
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/20240725_192340.jpg"
+  description="View from a cliff"
+%}
 
-![There are rocks to sit on and enjoy the view](/assets/img/travel-logs/rotasiz-gezgin-koyu/20240801_200117.jpg)
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/20240801_200117.jpg"
+  description="There are rocks to sit on and enjoy the view"
+%}
 
 ## Where Is It
 
@@ -64,7 +96,12 @@ Exact coordinates are 41.238938396992964, 29.103902008727104 and Google maps
 link is
 [maps.app.goo.gl/xDqb7HtJQ7Aidqdv8](https://maps.app.goo.gl/xDqb7HtJQ7Aidqdv8).
 
-![Google Maps snip](/assets/img/travel-logs/rotasiz-gezgin-koyu/google_maps_snip.png)
+
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/google_maps_snip.png"
+  description="Google Maps snip"
+%}
 
 There are some public busses that goes to Rumelifeneri Village. Rumelifeneri
 village hosts last stop terminal for that busses. After that, 10 minute walk is
