@@ -44,26 +44,20 @@ div.post_tag {
 	background-color: var(--background-second);
 }
 
-/* img + em {
-    display: block;
-    text-align: center;
-    font-style: italic;
-} */
-
 article figcaption {
     display: block;
     text-align: center;
     font-style: italic;
 }
 
-/* Youtube iframe responsive 100% width. */
-.videoWrapper {
+/* Responsive iframe with 100% width. */
+.iframeWrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
     overflow: hidden;
 }
-.videoWrapper iframe {
+.iframeWrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
