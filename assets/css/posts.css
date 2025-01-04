@@ -14,7 +14,6 @@ div.post_list_item {
 	line-height: 1;
 	background-color: var(--background-second);
 	border-color:var(--background-third);
-	border-style: inset;
 	margin-bottom: 10px;
 	padding: 10px 20px;
 }
