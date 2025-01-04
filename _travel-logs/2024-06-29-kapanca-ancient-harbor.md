@@ -29,11 +29,11 @@ that place can host.
 
 ## My Route
 
-{%
-  include image_with_caption.html
-  url="/assets/img/travel-logs/kapanca-ancient-harbor/route.png"
-  description="My route"
-%}
+<div class="iframeWrapper">
+<iframe
+  src="https://www.google.com/maps/d/embed?mid=1hPVsElztd-G8p_ve0AY__WdqCNmMwcU&ehbc=2E312F">
+</iframe>
+</div>
 
 I had to pass Yalova to arrive Bursa. I chose to take the ferry and not the
 Osmangazi Bridge bacause of the high toll prices. And I am glad that I took the
@@ -86,7 +86,3 @@ High altitude near the coast means a steep descend. Cherry on top: Soft terrain.
 I didn't realize terrain was soft and lost control at a speed of ~15 kph, which
 is a lot considering steepness. Fortunately I was very lucky and didn't fall.
 Please be more careful than me if you were to go there.
-
-## Sources
-
-- Google My Maps link: <https://www.google.com/maps/d/viewer?mid=1hPVsElztd-G8p_ve0AY__WdqCNmMwcU>

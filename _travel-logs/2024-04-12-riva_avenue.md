@@ -2,7 +2,7 @@
 layout: travel_logs
 title: Riva Avenue
 cover: 20241012_140446.jpg
-tags: route
+tags: route spot
 last-visit: 2024-12-14
 been-here: countless
 ---
