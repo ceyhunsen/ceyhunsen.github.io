@@ -3,7 +3,7 @@ layout: travel_logs
 title: Rotasız Gezgin Koyu
 cover: 20240725_192340.jpg
 tags: spot
-last-visit: 2024-09-21
+last-visit: 2025-01-05
 been-here: multiple
 ---
 
@@ -41,6 +41,12 @@ assumption.
 There are two possible entries to the bay and they are ending with two different
 bays, which are not connected. Each of the entries are quite narrow. Be careful
 not to get yourself scratched by the bushes!
+
+{%
+  include image_with_caption.html
+  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/250105-rotasiz_gezgin_koyu_entrance.gif"
+  description="One of the entrances"
+%}
 
 First entry hosts the smaller part of the bay. Once you pass the narrow path,
 nice green view will welcome you. This part also has a small beach but sand is
@@ -96,12 +102,15 @@ Exact coordinates are 41.238938396992964, 29.103902008727104 and Google maps
 link is
 [maps.app.goo.gl/xDqb7HtJQ7Aidqdv8](https://maps.app.goo.gl/xDqb7HtJQ7Aidqdv8).
 
-
-{%
-  include image_with_caption.html
-  url="/assets/img/travel-logs/rotasiz-gezgin-koyu/google_maps_snip.png"
-  description="Google Maps snip"
-%}
+<div class="iframeWrapper">
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1500.112157146137!2d29.1038376!3d41.2386715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409fe7e27abb4c15%3A0x408e4ebfd43bed5b!2sRotas%C4%B1z%20Gezgin%20Koyu!5e0!3m2!1sen!2str!4v1736102180660!5m2!1sen!2str"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</div>
 
 There are some public busses that goes to Rumelifeneri Village. Rumelifeneri
 village hosts last stop terminal for that busses. After that, 10 minute walk is
