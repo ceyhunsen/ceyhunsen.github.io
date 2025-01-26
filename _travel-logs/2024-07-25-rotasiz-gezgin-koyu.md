@@ -4,7 +4,6 @@ title: Rotasız Gezgin Koyu
 cover: 20240725_192340.jpg
 tags: spot
 last-visit: 2025-01-05
-been-here: multiple
 ---
 
 Rotasız Gezgin Koyu (English translation: Routeless Traveller Bay), located in
@@ -112,14 +111,18 @@ link is
 </iframe>
 </div>
 
-There are some public busses that goes to Rumelifeneri Village. Rumelifeneri
-village hosts last stop terminal for that busses. After that, 10 minute walk is
-needed. So, it is possible to go there without having a vehicle.
+There are some public busses that goes to Rumelifeneri Village and the village
+is the last stop. After that, 10 minute walk is needed. So, it is possible to go
+there without having a vehicle. If you happened the follow the shoreline (it's
+cliffs, actually), there are similar views that you can enjoy. These spots are
+crowded though.
 
 But I suggest going there with your own vehicle at your own pace and listening a
 relaxed music at the background. Because roads are twisted and has a good view;
 It is quite peaceful to drive slowly. Be cautious, if you ride a motorcycle
-though: There are stray dogs near village. Dogs like to hide in blind spots and
-chase you when you pass them. Either pass them slowly (they will stop chasing
-you) or hold your legs upwards and throttle pass them. They probably won't
-**really** attack you.
+though: There are stray dogs near the village. Dogs like to hide in blind spots
+and chase you when you pass them. Either pass them extremely slow (they will
+stop chasing you) or hold your legs upwards and throttle pass them; They
+probably won't attack you.
+
+![Road to Rumelifeneri Village](/assets/img/travel-logs/rotasiz-gezgin-koyu/250105-rotasiz_gezgin_koyu_road.gif)
