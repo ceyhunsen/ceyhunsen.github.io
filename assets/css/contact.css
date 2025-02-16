@@ -1,0 +1,43 @@
+/* Contact card style. */
+
+:root {
+    --contact-card-bg-color: beige;
+    --contact-card-text-color: black;
+    --margin-rem: 2rem;
+}
+
+div.contact_card {
+    aspect-ratio: 1083 / 633;
+    display: flex;
+    flex-direction: row;
+
+    background-color: var(--contact-card-bg-color);
+    color: var(--contact-card-text-color);
+}
+
+div.contact_card_info p, h1, a, li, ul {
+    color: var(--contact-card-text-color);
+    font-style: italic;
+    margin-left: var(--margin-rem);
+}
+
+div.contact_card_info {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.contact_card_photo {
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.contact_card_photo img {
+    height: 80%;
+}
