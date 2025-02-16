@@ -15,7 +15,7 @@ div.contact_card {
     color: var(--contact-card-text-color);
 }
 
-div.contact_card_info p, h1, a, li, ul {
+div.contact_card_info {
     color: var(--contact-card-text-color);
     font-style: italic;
     margin-left: var(--margin-rem);
