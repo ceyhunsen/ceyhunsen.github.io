@@ -5,7 +5,7 @@
 - name: Blog
   link: /blog
 - name: About
-  link: about
+  link: /about
 - name: Contact
-  link: contact
+  link: /contact
 
