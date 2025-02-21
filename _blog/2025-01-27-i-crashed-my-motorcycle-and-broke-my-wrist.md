@@ -1,6 +1,7 @@
 ---
 layout: blog
-title: "[DISTURBING] I Crashed My Motorcycle And Broke My Wrist"
+title: I Crashed My Motorcycle And Broke My Wrist
+description: "BEWARE: X-ray images might be disturbing to some people. Open it with that in mind."
 ---
 
 As I was closing my first anniversary riding motorcycles, I crashed, on my own.
@@ -122,7 +123,7 @@ Even though my wrist was extremely weak to hold my hand in the air, it was very
 stiff to move it up and down. So the doctor suggested a specific exercise to
 recover.
 
-## What About The Motorcycle
+## What About The Motorcycle?
 
 Because I hugged the motorcycle and didn't fall from it, it took lots of damage.
 Or, is it? See, I was also lucky about the terrain: There were bushes and a
@@ -132,6 +133,7 @@ were still a big impact.
 
 ![](/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/20250125_122428.jpg)
 
-I took the Pulsar to a service. Total was 16000 Turkish Liras (439 US Dollars
-at the time of writing). Changed parts are mostly plastics. Rest got only
-repaired. Repair costs in Türkiye are crazy expensive nowadays.
+I took the Pulsar to a service for the repair. Changed parts are mostly plastics. Rest
+got only repaired. Total was 16000 Turkish Liras (439 US Dollars at the time of
+writing). Repair costs in Türkiye are crazy expensive nowadays as well as the
+spare parts.
