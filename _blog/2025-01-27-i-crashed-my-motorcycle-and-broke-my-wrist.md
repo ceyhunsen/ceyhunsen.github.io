@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: I Crashed My Motorcycle And Broke My Wrist
+title: "[DISTURBING] I Crashed My Motorcycle And Broke My Wrist"
 ---
 
 As I was closing my first anniversary riding motorcycles, I crashed, on my own.
@@ -71,6 +71,33 @@ protected me from this injury, if it has it though. I think I also hit my left
 thigh because there is a bruise that I noticed afterwards. Other than these,
 either I didn't hit anything or my protective equipments does their jobs
 perfectly. Although I didn't find any deformations on my equipments.
+
+## Damage Done
+
+After the crash, I really didn't notice anything wrong with my body. It lasted
+for a couple of minutes until I tried to use my left hand. People asked me if
+something is wrong with my body. So, I checked my wrist. The shape of it was
+looking funny.
+
+{%
+  include image_with_caption.html
+  url="/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/funny_looking_wrist.png"
+  description="First moment I saw my broken wrist"
+%}
+
+The x-ray has showed clearly what was wrong. I am not going to use any medical
+terms to describe it because average Joe can't understand it and not because I
+don't know anything about medical terms. So, here are the pictures:
+
+![](/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/non_lateral.png)
+![](/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/lateral.png)
+
+Both the little bones sat on top of each other and they got moved inside. See,
+everyone can understand me now.
+
+After 2 days from the crash, I also noticed a bruise on my upper leg. Looks like
+I hit my leg to the same tree. I bet the impact force was the same that applied
+to the wrist. But the wrist got broke and leg is bruised.
 
 ## Healing Process
 
