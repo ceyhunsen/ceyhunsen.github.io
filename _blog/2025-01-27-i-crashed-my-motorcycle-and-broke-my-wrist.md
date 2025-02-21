@@ -121,3 +121,17 @@ didn't done anything with my hands in that period.
 Even though my wrist was extremely weak to hold my hand in the air, it was very
 stiff to move it up and down. So the doctor suggested a specific exercise to
 recover.
+
+## What About The Motorcycle
+
+Because I hugged the motorcycle and didn't fall from it, it took lots of damage.
+Or, is it? See, I was also lucky about the terrain: There were bushes and a
+ditch before the small trees. So, motorcycle hit multiple non destructive
+obstacles before stopping. This made it slower, gradually. Unfortunately, there
+were still a big impact.
+
+![](/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/20250125_122428.jpg)
+
+I took the Pulsar to a service. Total was 16000 Turkish Liras (439 US Dollars
+at the time of writing). Changed parts are mostly plastics. Rest got only
+repaired. Repair costs in Türkiye are crazy expensive nowadays.
