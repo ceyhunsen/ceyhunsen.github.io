@@ -7,10 +7,10 @@ description: "BEWARE: X-ray images might be disturbing to some people. Open it w
 As I was closing my first year anniversary riding motorcycles, I crashed, on my
 own. It was a sunny saturday which the dates were showing 18th of January, 2025
 and the clocks were pointing to 16:10. I couldn't slow down to a corner and went
-straight outside the twisties, into the bushes. After I mowed the bushes, hit
-the little trees and came to a stop. I was very fortunate to not hit anything
-during this period until I came to a stop. At the very last moment, hit my left
-wrist to a tree and broke it.
+straight outside the twisties, in to the bushes. After I mowed the bushes, hit
+the little trees and than came to a stop. I was very fortunate to not hit
+anything during this period until I came to a stop. But at the very last moment,
+hit my left wrist to a tree and broke it.
 
 {%
   include image_with_caption.html
@@ -20,21 +20,19 @@ wrist to a tree and broke it.
 
 ## Why and How Did I Crashed?
 
-I wasn't speeding that moment; Was a chill ride with no destination. Even though
-it was a cold day (10 Celcius), road and tire conditions were OK. But I wasn't
-paying attention to the road and this was the main problem. I was very
+I wasn't speeding at that moment; Was a chill ride with no destination. Even
+though it was a cold day (10 Celcius), road and tire conditions were OK. But I
+wasn't paying attention to the road and this was the main problem. I was very
 absent-minded about my personal matters for couple of days. While thinking about
 them, I wasn't paying attention to road. Because it was also cold, my hands were
-numb. I learned that these two combined is a disastrous thing. As a result, I
-couldn't pull the front brakes at a level that I needed for me to slow down for
+numb. I learned that these two combined is a disastrous scenario. As a result, I
+couldn't pull the front brakes to a level that needed for me to slow down for
 that sharp turn.
 
-When I noticed I couldn't slowed down enough to that sharp corner, I got
-surprised. I thought to myself "What is going on at this very moment? Why am I
-in it?". It was incredibly fast. I couldn't do anything and just freezed. I
-don't really remember the moment I hit the trees even though I was concious all
-the time. Maybe because I was focused on the terrain to not hit anything (shock
-caused this, nothing I could do to avoid).
+When I noticed I couldn't slow down enough, I got surprised. I thought to myself
+"What is going on at this very moment? Why am I in it?". It was incredibly fast.
+I couldn't do anything and just freezed. I don't really remember the moment I
+hit the trees even though I was concious all the time.
 
 {%
   include image_with_caption.html
@@ -45,9 +43,9 @@ caused this, nothing I could do to avoid).
 This whole crash sequence gave me the same vibes in the movies where a high
 speed crash occurs: Time slows down before the crash. But when I saw the crash
 was inevitable, it was an incredibly fast moment and background noise just wiped
-out (I was listening music). I was really angry to myself about the crash
-afterwards and yelled to myself. I was also very lucky that I didn't stuck under
-the bike and quickly get myself out in that situation and asked for help.
+out (was listening music). I was really angry to myself about the crash and
+yelled to myself. I was very lucky that I didn't stuck under the bike and
+quickly get myself out in that situation and asked for help.
 
 Luckily that road was very popular amongst the motorcyclist. People stopped and
 helped me to get my motorcycle out of the bushes. They offered me help to move
@@ -59,7 +57,7 @@ parents.
 After the crash, I really didn't notice anything wrong with my body. It lasted
 for couple of minutes until I tried to use my left hand. People asked me if
 something is wrong with my body. I checked my wrist because I wasn't able to
-lift anything. The shape of it was looking funny.
+lift anything. Also the shape of it was looking funny.
 
 {%
   include image_with_caption.html
@@ -73,8 +71,7 @@ thing about the relocation process, though. Operation was done by a doctor, a
 technician and my dad (yes they wanted help from him). Glad it only took 10-20
 seconds.
 
-![](/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/non_lateral.png)
-![](/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/lateral.png)
+![X-ray images](/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/broken_bones.png)
 
 X-ray pictures tells what was wrong with my wrist: The little bones sat on top
 of each other and got moved inside.
@@ -97,8 +94,8 @@ process, so I was fine.
 After cast is removed, I felt like my hand will slip and fall because my wrist
 was so out of power. It got better in a couple of seconds though. Which
 was really weird but not an alien feeling for me; Not my first cast. Of course,
-a hand in a cast for a month and prohibited to be washed is dirty even though I
-didn't done anything with my left hand in that period.
+a hand in a cast for a month and prohibited to be washed was dirty even though I
+didn't do anything with my left hand in that period.
 
 {%
   include image_with_caption.html
@@ -106,9 +103,14 @@ didn't done anything with my left hand in that period.
   description="Left hand is darker and dirtier than the right hand"
 %}
 
-Even though my wrist was extremely weak to hold my hand in the air, it was very
-stiff to move it up and down. So the doctor suggested a specific exercise to
-recover.
+Even though my wrist was extremely weak to hold my hand, it was very stiff to
+move it up and down. So the doctor suggested a specific exercise to recover.
+
+{%
+  include image_with_caption.html
+  url="/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/maximum_angles.png"
+  description="Maximum angle that I can do with my hand is increased in 8 days"
+%}
 
 ## What About The Motorcycle?
 
@@ -116,18 +118,20 @@ Because I hugged the motorcycle and didn't fall from it, it took lots of damage.
 Or, is it? See, I was also lucky about the terrain: There were bushes and a
 ditch before the small trees. So, motorcycle hit multiple non destructive
 obstacles before stopping. This made it slower, gradually. Unfortunately, there
-were still a big impact.
+was still a sudden impact that stopped the bike and myself. This is what caused
+damage to us.
 
 ![](/assets/img/blogs/i-crashed-my-motorcycle-and-broke-my-wrist/20250125_122428.jpg)
 
-I took the Pulsar to a service for the repair. Changed parts are mostly
-plastics. Rest got only repaired. Total was 16000 Turkish Liras (439 US Dollars
-at the time of writing). Repair costs in Türkiye are crazy expensive nowadays as
-well as the spare parts.
+I took the Pulsar to a service for the repair. A plastic part is changed and new
+light was installed. Suspensions, brakes and other small plastic parts are
+fixed. Total was 15000 Turkish Liras (412 US Dollars at the time of writing).
+Repair costs in Türkiye are crazy expensive nowadays, as well as the spare
+parts.
 
 ## Today
 
 Today, I can use my left hand. But it's movement and power generation is still
 limited. Service told me that my motorcycle was ready this week. I also felt I
-was ready. I was OK, bike was OK; We got home safely. Done a short ride through
-Maltepe beach. I missed this feeling.
+was ready. I was OK, bike was OK; We got home safely. Done a short ride to
+Maltepe beach afterwards. I missed this feeling.
