@@ -13,17 +13,6 @@ the city as much as I could be, I have some things to tell about it.
 While I was there, I decided to capture some footage with my phone. After that,
 made an edit of them and I suggest you watching it before continuing.
 
-<div class="iframeWrapper">
-<iframe
-    max-width="560" max-height="315px"
-    src="https://www.youtube.com/embed/6k64p4Lywiw?si=wtsDku-32_tfAPaQ"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen />
-</div>
-
 ## Streets
 
 My first impression of the city was is how well organized it was. Even though

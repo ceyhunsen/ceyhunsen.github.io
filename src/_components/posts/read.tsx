@@ -40,8 +40,8 @@ function getDirectory(category: string): string {
 export function getPostByCategory(category: string, post: string) {
   const postsDirectory = getDirectory(category);
 
-  const strippedPostName = post.replace(/\.mdx$/, "");
-  const fullPath = join(postsDirectory, `${strippedPostName}/index.mdx`);
+  const strippedPostName = post.replace(/\.md$/, "");
+  const fullPath = join(postsDirectory, `${strippedPostName}/index.md`);
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);

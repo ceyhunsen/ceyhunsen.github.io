@@ -25,11 +25,11 @@ that place can host.
 
 ## My Route
 
-<div class="iframeWrapper">
+<!-- <div class="iframeWrapper">
 <iframe
   src="https://www.google.com/maps/d/embed?mid=1hPVsElztd-G8p_ve0AY__WdqCNmMwcU&ehbc=2E312F">
 </iframe>
-</div>
+</div> -->
 
 I had to pass Yalova to arrive Bursa. I chose to take the ferry and not the
 Osmangazi Bridge bacause of the high toll prices. And I am glad that I took the
