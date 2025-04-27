@@ -7,19 +7,22 @@ If you want to check out this website, visit
 
 ## How To Build
 
-This website is built with [Jekyll](https://jekyllrb.com/). To build and host
-locally:
+First, run the development server:
 
 ```bash
-# Install dependencies
-bundle install
+npm install next
 
-# Build and serve
-jekyll serve
-
-# If above not works, try this
-bundle exec jekyll serve
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see
+the result.
 
 ## License
 

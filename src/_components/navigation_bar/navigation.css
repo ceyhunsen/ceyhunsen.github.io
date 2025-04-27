@@ -1,0 +1,36 @@
+/* Navigation bar style. */
+
+nav {
+	text-align: center;
+	background-color: var(--background-second);
+	padding: var(--margin-top-bottom);
+}
+nav a {
+	font-size: medium;
+	width: fit-content;
+	text-decoration: none;
+}
+nav a:link,
+nav a:visited {
+	color: var(--font-second);
+}
+nav a:hover {
+	color: var(--font-first);
+	text-decoration: underline;
+}
+
+nav #logo {
+	color: var(--font-first);
+	text-decoration: none;
+	font-size: xx-large;
+}
+
+nav #resume {
+	color: var(--font-second);
+	text-decoration: none;
+	font-size: x-large;
+}
+nav #resume:hover {
+	color: var(--font-first);
+	text-decoration: underline;
+}

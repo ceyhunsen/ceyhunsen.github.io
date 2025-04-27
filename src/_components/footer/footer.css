@@ -1,0 +1,15 @@
+:root {
+	--socials-size: 1rem;
+}
+
+footer {
+	text-align: center;
+	line-height: 0.5;
+	font-size: medium;
+	padding-bottom: 2rem;
+}
+
+footer img {
+	max-height: var(--socials-size);
+	padding-right: 0.2rem;
+}
