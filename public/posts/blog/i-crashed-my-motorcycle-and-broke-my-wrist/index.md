@@ -2,6 +2,7 @@
 title: I Crashed My Motorcycle And Broke My Wrist
 description: "BEWARE: X-ray images might be disturbing to some people. Open it with that in mind."
 date: 2025/03/01
+cover: 20250118_161357.jpg
 ---
 
 As I was closing my first year anniversary riding motorcycles, I crashed, on my

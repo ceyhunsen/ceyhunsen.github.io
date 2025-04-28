@@ -26,7 +26,7 @@ export default function Home(props: Params) {
           This is my personal website. Here, I share my technical
           knowledge/portfolio, travel experiences and other kinds of personal
           stuff. To know more about me, you can check out the{" "}
-          <a href="/about">about me page</a> or{" "}
+          <a href="/about">about me</a> page or{" "}
           <a href="/ceyhun_sen_resume.pdf">my resume</a>.
         </p>
 

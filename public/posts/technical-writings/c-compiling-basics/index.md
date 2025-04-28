@@ -285,7 +285,7 @@ a tool like this or C people hate to be told what to do.
 Maybe we need a one last build system built upon the mistakes of it's
 predecessors, that solves all of our problems and agonies?
 
-![Relevant xkcd: Standards https://xkcd.com/927](/posts/technical-writings/c_compiling_basics_for_those_who_feel_lost/standards.png)
+![Relevant xkcd: Standards https://xkcd.com/927](/posts/technical-writings/c-compiling-basics/standards.png)
 
 ## Stories
 

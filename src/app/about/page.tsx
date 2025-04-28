@@ -11,9 +11,9 @@ export default function Index() {
           hav experince in Linux driver development and bare metal applications
           to this extent. I also like to work on high level softwares if the
           project itself is interesting. My previous experiences are detailed in
-          my
-          <a href="/ceyhun_sen_resume.pdf">resume</a>. I also occasionally write{" "}
-          <a href="technical-writings/">technical articles</a> about my work.
+          my <a href="/ceyhun_sen_resume.pdf">resume</a>. I also occasionally
+          write <a href="technical-writings/">technical articles</a> about my
+          work.
         </p>
 
         <p>
@@ -25,7 +25,7 @@ export default function Index() {
         </p>
 
         <p>
-          I also share other miscellanous topics and thoughts on
+          I also share other miscellanous topics and thoughts on{" "}
           <a href="blog/">my blog</a>.
         </p>
       </article>
