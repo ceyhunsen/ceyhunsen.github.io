@@ -1,5 +1,11 @@
 # Ceyhun Şen's Personal Website
 
+> [!IMPORTANT]
+>
+> This was the latest state of my personal website, before I decided to
+> discontinue it. It might not get compiled because I deleted some of the
+> personal information necessary to compile this website.
+
 This directory includes my (Ceyhun Şen) personal website and resume source.
 
 If you want to check out this website, visit
