@@ -1,0 +1,25 @@
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.buttons .enabled_button,
+.buttons .disabled_button {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid var(--font-first);
+    border-radius: 8px;
+    background: var(--background-third);
+    text-decoration: none;
+    color: var(--font-first);
+}
+
+.buttons .enabled_button {
+    pointer-events: auto;
+    opacity: 1;
+}
+.buttons .disabled_button {
+    pointer-events: none;
+    opacity: 0.5;
+}

@@ -1,0 +1,51 @@
+.nav {
+	text-align: center;
+	background-color: var(--background-second);
+	padding: var(--margin-top-bottom);
+}
+
+.nav .logo,
+.nav .logo:link,
+.nav .logo:visited {
+	color: var(--font-first);
+	text-decoration: none;
+	font-size: xx-large;
+}
+
+.nav a {
+	font-size: medium;
+	width: fit-content;
+	text-decoration: none;
+}
+.nav a:link,
+.nav a:visited {
+	color: var(--font-second);
+}
+.nav a:hover {
+	color: var(--font-first);
+	text-decoration: underline;
+}
+
+.nav .resume,
+.nav .resume:link,
+.nav .resume:visited {
+	color: var(--font-first);
+	text-decoration: none;
+	font-size: x-large;
+}
+.nav .resume:hover {
+	color: var(--font-first);
+	text-decoration: underline;
+}
+
+.nav .about_contact {
+	text-decoration: underline;
+}
+.nav .about_contact,
+.nav .about_contact:link,
+.nav .about_contact:visited {
+	color: var(--font-second);
+}
+.nav .about_contact:hover {
+	color: var(--font-first);
+}

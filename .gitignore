@@ -1,0 +1,91 @@
+# JS/TS dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Testing
+/coverage
+.vscode
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# JS/TS debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Resume
+public/resume/ceyhun_sen_software_engineer_resume.pdf
+
+# Generated thumbnails for the gallery
+public/gallery/
+public/images/
+
+# Latex
+*.acn
+*.acr
+*.alg
+*.aux
+*.bak
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.bst
+*.dvi
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lol
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.nav
+*.nlo
+*.nls
+*.out
+*.pdf
+*.pyg
+*.run.xml
+*.snm
+*.synctex.gz
+*.tex.backup
+*.tex~
+*.thm
+*.toc
+*.vrb
+*.xdy
+*.xdv
+*.xml
+*blx.bib
+.bak 
+.mtc
+build/

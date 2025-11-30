@@ -1,0 +1,6 @@
+.date {
+	text-align: left;
+	margin-bottom: 1rem;
+	font-style: italic;
+	color: var(--font-third);
+}

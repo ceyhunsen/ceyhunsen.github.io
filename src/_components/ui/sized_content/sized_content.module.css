@@ -1,0 +1,11 @@
+.article_content,
+.article_content header {
+    width: var(--width);
+}
+
+@media only screen and (max-width: 50rem) {
+    .article_content,
+    .article_content header {
+    width: 100%;
+    }
+}

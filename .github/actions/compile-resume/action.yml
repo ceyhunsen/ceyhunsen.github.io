@@ -1,0 +1,13 @@
+name: Compile Resume
+description: "Compile the resume"
+
+runs:
+  using: "composite"
+
+  steps:
+    - name: Github Action for LaTeX
+      uses: xu-cheng/latex-action@3.3.0
+      with:
+        latexmk_use_xelatex: true
+        working_directory: public/resume
+        root_file: ceyhun_sen_software_engineer_resume.tex

@@ -1,0 +1,72 @@
+name: Checks
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  build-with-cache:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prerequisites
+        uses: ./.github/actions/build-prerequisites
+      - name: Restore build cache
+        uses: ./.github/actions/restore-build-cache
+      - name: Build with Next.js
+        run: npx --no-install next build
+
+  build-without-cache:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prerequisites
+        uses: ./.github/actions/build-prerequisites
+      - name: Build with Next.js
+        run: npx --no-install next build
+
+  lint:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prerequisites
+        uses: ./.github/actions/build-prerequisites
+      - name: Restore build cache
+        uses: ./.github/actions/restore-build-cache
+      - name: Lint
+        run: npm run lint
+
+  unused-dependencies:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prerequisites
+        uses: ./.github/actions/build-prerequisites
+      - name: Restore build cache
+        uses: ./.github/actions/restore-build-cache
+      - name: Install depcheck
+        run: npm install -g depcheck
+      - name: Check for unused dependencies
+        run: npx --no-install depcheck --ignores @types/react
+
+  compile-resume:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Compile resume
+        uses: ./.github/actions/compile-resume

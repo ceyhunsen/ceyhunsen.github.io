@@ -1,0 +1,24 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .link {
+    display: flex;
+    height: auto;
+    width: auto;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .link .image {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    object-fit: contain;
+}

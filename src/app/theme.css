@@ -1,0 +1,44 @@
+/* Global stylesheet, A.K.A. theme */
+
+:root {
+	/* Colors. */
+	--background-first: rgb(0, 0, 0);
+	--background-second: rgb(13, 17, 21);
+	--background-third: rgb(25, 25, 25);
+	--font-first: rgb(255, 255, 255);
+	--font-second: rgb(200, 200, 200);
+	--font-third: rgb(150, 150, 150);
+
+	/* Size constants. */
+	--width: 50rem;
+	--margin-top-bottom: 1rem;
+	--margin-side: 1.5rem;
+}
+
+html {
+	/* Text options. */
+	font-family: sans-serif, system-ui;
+	font-size: large;
+	line-height: 1.5;
+
+	/* Coloring. */
+	color: var(--font-first);
+	background-color: var(--background-first);
+
+	/* Page sizing. */
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+body {
+	margin: 0;
+}
+
+code {
+	font-family: monospace, system-ui;
+}
+
+pre {
+	overflow: auto;
+	line-height: 1.25rem;
+}
